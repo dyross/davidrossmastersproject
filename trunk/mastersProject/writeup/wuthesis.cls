@@ -96,6 +96,11 @@
     \newcommand{\thesisdegree}{Master of Science}
     \newcommand{\thesisdegreeabbreviation}{M.S.}
 }
+\DeclareOption{mastersproject}{
+    \newcommand{\thesistype}{masters project}
+    \newcommand{\thesisdegree}{Master of Science}
+    \newcommand{\thesisdegreeabbreviation}{M.S.}
+}
 \DeclareOption{singlespace}{\AtBeginDocument{\singlespacing}}
 \DeclareOption{oneandhalfspace}{\AtBeginDocument{\onehalfspacing}}
 \DeclareOption{doublespace}{\AtBeginDocument{\doublespacing}}
@@ -219,7 +224,7 @@ Robert Edward Thomas}
     \vfill
 
     \begin{singlespace}
-      Thesis Examination Committee: \\
+      Masters Project Examination Committee: \\
       \thesiscommittee
     \end{singlespace}
 

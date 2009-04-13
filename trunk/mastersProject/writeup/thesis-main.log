@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.30.4-2.2 (Web2C 7.5.5) (format=pdflatex 2006.11.9)  13 APR 2009 12:18
+This is pdfeTeX, Version 3.141592-1.30.4-2.2 (Web2C 7.5.5) (format=pdflatex 2006.11.9)  13 APR 2009 12:41
 entering extended mode
 \write18 enabled.
 **thesis-main.tex
@@ -386,10 +386,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1751 strings out of 94412
- 25759 string characters out of 1172319
- 2071698 words of memory out of 4523262
- 4899 multiletter control sequences out of 10000+50000
+ 1752 strings out of 94412
+ 25777 string characters out of 1172319
+ 2071718 words of memory out of 4523282
+ 4900 multiletter control sequences out of 10000+50000
  14118 words of font info for 49 fonts, out of 2000000 for 2000
  582 hyphenation exceptions out of 5000
  32i,9n,32p,493b,240s stack positions out of 5000i,500n,6000p,200000b,40000s
@@ -412,4 +412,4 @@ texmf.tetex/fonts/type1/bluesky/cm/cmr8.pfb></usr/local/teTeX/share/texmf.tetex
 1/bluesky/cm/cmr6.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/c
 m/cmbx10.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmr12.p
 fb>
-Output written on thesis-main.pdf (35 pages, 205361 bytes).
+Output written on thesis-main.pdf (35 pages, 205388 bytes).
