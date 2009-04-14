@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{Acknowledgments}{iii}
-\contentsline {chapter}{List of Tables}{vii}
-\contentsline {chapter}{List of Figures}{viii}
-\contentsline {chapter}{Preface}{ix}
+\contentsline {chapter}{List of Tables}{vi}
+\contentsline {chapter}{List of Figures}{vii}
+\contentsline {chapter}{Preface}{viii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Margins}{1}
 \contentsline {section}{\numberline {1.2}Page Numbers}{1}
