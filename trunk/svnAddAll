@@ -1,0 +1,1 @@
+svn st | grep \? | cut -c 8-255 | xargs svn add
