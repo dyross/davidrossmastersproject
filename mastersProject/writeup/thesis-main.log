@@ -1,15 +1,14 @@
-This is pdfeTeX, Version 3.141592-1.30.4-2.2 (Web2C 7.5.5) (format=pdflatex 2006.11.9)  13 APR 2009 19:38
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  14 APR 2009 00:19
 entering extended mode
-\write18 enabled.
-**thesis-main.tex
-(./thesis-main.tex
+**C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
+ersProject/writeup/thesis-main.tex
+
+("C:/Documents and Settings/gpu/Desktop/David Ross/davidrossmastersproject/mast
+ersProject/writeup/thesis-main.tex"
 LaTeX2e <2005/12/01>
-Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
-ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
-stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
-h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
-kish, ukrainian, nohyphenation, loaded.
-(./wuthesis.cls
+Babel <v3.8h> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(wuthesis.cls
 *************************************************************
 ** Wash U - Sever Institute thesis class 
 ** version 1.7a, 07/01/2008
@@ -17,9 +16,9 @@ kish, ukrainian, nohyphenation, loaded.
 ** with revisions by Long Duan and Greg Hackmann 
 *************************************************************
 Document Class: wuthesis 07/01/2008 v1.7a
-(/usr/local/teTeX/share/texmf.local/tex/latex/base/book.cls
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\book.cls"
 Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
-(/usr/local/teTeX/share/texmf.local/tex/latex/base/bk12.clo
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\bk12.clo"
 File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -35,7 +34,7 @@ File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/teTeX/share/texmf.tetex/tex/latex/ulem/ulem.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\ltxmisc\ulem.sty"
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
@@ -46,40 +45,40 @@ File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 Package: ulem 2000/05/26
 \ULdepth=\dimen104
 )
-(/usr/local/teTeX/share/texmf.tetex/tex/latex/setspace/setspace.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\setspace\setspace.sty"
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
-) (/usr/local/teTeX/share/texmf.tetex/tex/latex/carlisle/remreset.sty)
+) ("C:\Program Files\MiKTeX 2.7\tex\latex\carlisle\remreset.sty")
 \chapterpadding=\skip44
 \chaptervspace=\skip45
 \appendixhspace=\skip46
 \hour=\count89
 \minute=\count90
 )
-(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/epsfig.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/graphics.cfg
-File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 90.
 
-(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/pdftex.def
-File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\pdftex.def"
+File: pdftex.def 2007/06/12 v0.04h Graphics/color for pdfTeX
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen105
@@ -87,27 +86,30 @@ File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
 )
 \epsfxsize=\dimen107
 \epsfysize=\dimen108
-)
-(./ellipsis.sty
+) (ellipsis.sty
 Package: ellipsis 2004/9/28 v1.6 ellipsis: fixes spacing around \protect \globa
 l \let \OT1\textellipsis .\kern \fontdimen 3\font .\kern \fontdimen 3\font .\ke
 rn \fontdimen 3\font \OT1\textellipsis 
- (/usr/local/teTeX/share/texmf.local/tex/latex/tools/xspace.sty
-Package: xspace 2006/02/12 v1.11 Space after command names (DPC,MH)
-)) (/usr/local/teTeX/share/texmf.tetex/tex/latex/caption/caption.sty
-Package: caption 2004/07/16 v3.0c Customising captions (AS)
-\captionmargin=\dimen109
-\captionwidth=\dimen110
-\captionindent=\dimen111
-\captionparindent=\dimen112
-\captionhangindent=\dimen113
-)
-(./thesis-main.aux (./thesis-front.aux) (./thesis-chapter1.aux)
-(./thesis-chapter2.aux) (./thesis-chapter3.aux) (./thesis-appendixA.aux)
-(./thesis-appendixB.aux) (./thesis-appendixC.aux) (./thesis-appendixD.aux)
-(./thesis-back.aux))
-\openout1 = `thesis-main.aux'.
 
+("C:\Program Files\MiKTeX 2.7\tex\latex\tools\xspace.sty"
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+))
+("C:\Program Files\MiKTeX 2.7\tex\latex\caption\caption.sty"
+Package: caption 2008/08/24 v3.1j Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\caption\caption3.sty"
+Package: caption3 2008/08/24 v3.1j caption3 kernel (AR)
+\captionmargin=\dimen109
+\captionmargin@=\dimen110
+\captionwidth=\dimen111
+\caption@indent=\dimen112
+\caption@parindent=\dimen113
+\caption@hangindent=\dimen114
+)
+\c@ContinuedFloat=\count92
+)
+(thesis-main.aux (thesis-front.aux) (thesis-chapter1.aux) (thesis-chapter2.aux)
+(thesis-chapter3.aux) (thesis-chapter4.aux) (thesis-back.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
@@ -121,124 +123,62 @@ LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 
-(/usr/local/teTeX/share/texmf.local/tex/context/base/supp-pdf.tex
-(/usr/local/teTeX/share/texmf.local/tex/context/base/supp-mis.tex
-loading : Context Support Macros / Miscellaneous (2004.10.26)
-\protectiondepth=\count92
+("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
-\scratchtoks=\toks16
-\scratchdimen=\dimen114
-\scratchskip=\skip47
-\scratchmuskip=\muskip10
+\scratchdimen=\dimen115
 \scratchbox=\box29
-\scratchread=\read1
-\scratchwrite=\write3
-\zeropoint=\dimen115
-\onepoint=\dimen116
-\onebasepoint=\dimen117
-\minusone=\count94
-\thousandpoint=\dimen118
-\onerealpoint=\dimen119
-\emptytoks=\toks17
-\nextbox=\box30
-\nextdepth=\dimen120
-\everyline=\toks18
-\!!counta=\count95
-\!!countb=\count96
-\recursecounter=\count97
-)
-loading : Context Support Macros / PDF (2004.03.26)
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen121
-\MPnumerator=\count101
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen116
+\MPnumerator=\count97
+\everyMPtoPDFconversion=\toks16
 )
 LaTeX Info: Redefining \dots on input line 62.
- (/usr/local/teTeX/share/texmf.tetex/tex/latex/ms/ragged2e.sty
-Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
-
-(/usr/local/teTeX/share/texmf.tetex/tex/latex/ms/everysel.sty
-Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
-LaTeX Info: Redefining \selectfont on input line 125.
-)
-\CenteringLeftskip=\skip48
-\RaggedLeftLeftskip=\skip49
-\RaggedRightLeftskip=\skip50
-\CenteringRightskip=\skip51
-\RaggedLeftRightskip=\skip52
-\RaggedRightRightskip=\skip53
-\CenteringParfillskip=\skip54
-\RaggedLeftParfillskip=\skip55
-\RaggedRightParfillskip=\skip56
-\JustifyingParfillskip=\skip57
-\CenteringParindent=\skip58
-\RaggedLeftParindent=\skip59
-\RaggedRightParindent=\skip60
-\JustifyingParindent=\skip61
-)
-\openout2 = `thesis-front.aux'.
-
-
-(./thesis-front.tex [0
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (thesis-front.tex [0
 
 
 
-{/usr/local/teTeX/share/texmf.local/fonts/map/pdftex/updmap/pdftex.map}] [1]
-Missing character: There is no Õ in font cmr12!
- [2] [3] [4
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.7/pdftex/config/
+pdftex.map}] [2] [3
 
-] [5] (./thesis-main.toc
+] [4] (thesis-main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
- [6
+ [5
 
 ])
-\tf@toc=\write4
-\openout4 = `thesis-main.toc'.
-
- [7]
-(./thesis-main.lot
-
-LaTeX Warning: Reference `tab:components' on page 8 undefined on input line 5.
-
-
+\tf@toc=\write3
+ [6]
+(thesis-main.lot
 Overfull \hbox (0.40749pt too wide) in paragraph at lines 5--5
  \OT1/cmr/m/n/12 multi-lined ta-ble la-bel/title, then the 2nd and all ad-di-ti
 onal lines should 
  []
 
 )
-\tf@lot=\write5
-\openout5 = `thesis-main.lot'.
+\tf@lot=\write4
+ [7
 
+] (thesis-main.lof)
+\tf@lof=\write5
  [8
 
-] (./thesis-main.lof
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-)
-\tf@lof=\write6
-\openout6 = `thesis-main.lof'.
-
- [9
-
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 210.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 210.
-) [10
+(Font)              <5> on input line 36.
+) [9
 
-]
-\openout2 = `thesis-chapter1.aux'.
-
- (./thesis-chapter1.tex
+] (thesis-chapter1.tex
 Chapter 1.
 [1
 
@@ -247,167 +187,89 @@ Chapter 1.
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
- (/usr/local/teTeX/share/texmf.local/tex/latex/base/omscmr.fd
+ ("C:\Program Files\MiKTeX 2.7\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
  [2]
-<justafigure.pdf, id=76, 95.35625pt x 100.375pt>
+<justafigure.pdf, id=45, 95.35625pt x 100.375pt>
 File: justafigure.pdf Graphic file (type pdf)
- <use justafigure.pdf> [3 <./justafigure.pdf>] [4]
-
-LaTeX Warning: Citation `Turabian' on page 5 undefined on input line 143.
-
-[5]) [6]
-\openout2 = `thesis-chapter2.aux'.
-
- (./thesis-chapter2.tex
+ <use justafigure.pdf> [3 <justafigure.pdf>] [4] [5]) [6] (thesis-chapter2.tex
 Chapter 2.
 [7
 
 
 
-] [8] [9] [10] [11]) [12]
-\openout2 = `thesis-chapter3.aux'.
+] [8]
 
- (./thesis-chapter3.tex
+LaTeX Warning: Reference `app:english-language' on page 9 undefined on input li
+ne 134.
+
+[9] [10]
+
+LaTeX Warning: Reference `cpt:citation' on page 11 undefined on input line 201.
+
+
+[11]
+
+LaTeX Warning: Reference `app:procedures' on page 12 undefined on input line 21
+3.
+
+) [12] (thesis-chapter3.tex
 Chapter 3.
-
-LaTeX Warning: Citation `ChicagoManual' on page 13 undefined on input line 6.
-
-
-LaTeX Warning: Citation `ChicagoManual' on page 13 undefined on input line 17.
-
 [13
 
 
 
-]
-
-LaTeX Warning: Citation `Turabian' on page 14 undefined on input line 51.
-
-) [14]
-\openout2 = `thesis-appendixA.aux'.
-
- (./thesis-appendixA.tex
-Appendix A.
-
-LaTeX Warning: Citation `Turabian' on page 15 undefined on input line 14.
-
-
-LaTeX Warning: Citation `ChicagoManual' on page 15 undefined on input line 16.
-
-) [15
+]) [14] (thesis-chapter4.tex
+Chapter 4.
+[15
 
 
 
-]
-\openout2 = `thesis-appendixB.aux'.
-
- (./thesis-appendixB.tex
-Appendix B.
-[16
+]) [16] (thesis-back.tex (thesis-main.bbl) [17
 
 
 
-] [17]) [18]
-\openout2 = `thesis-appendixC.aux'.
-
- (./thesis-appendixC.tex
-Appendix C.
-) [19
-
-
-
-]
-\openout2 = `thesis-appendixD.aux'.
-
- (./thesis-appendixD.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
-[]\OT1/cmr/m/n/12 Most au-thors will need to cus-tomize the $\OMS/cmsy/m/n/12 n
-$\OT1/cmtt/m/n/12 thesismonth\OT1/cmr/m/n/12 , $\OMS/cmsy/m/n/12 n$\OT1/cmtt/m/
-n/12 thesisyear\OT1/cmr/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 25--31
-\OMS/cmsy/m/n/12 n$\OT1/cmtt/m/n/12 thesisshorttitle\OT1/cmr/m/n/12 , $\OMS/cms
-y/m/n/12 n$\OT1/cmtt/m/n/12 thesisdepartment\OT1/cmr/m/n/12 , $\OMS/cmsy/m/n/12
- n$\OT1/cmtt/m/n/12 thesisfield\OT1/cmr/m/n/12 , $\OMS/cmsy/m/n/12 n$\OT1/cmtt/
-m/n/12 thesissupervisor\OT1/cmr/m/n/12 ,
- []
-
-[20
-
-
-] [21]
-Underfull \hbox (badness 5245) in paragraph at lines 77--82
-[]\OT1/cmr/m/n/12 L[]T[]X may also cre-ate wid-ows in the Ta-bles of Con-tents.
- You can
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 77--82
-\OT1/cmr/m/n/12 force L[]T[]X to break the page in a more con-ve-nient lo-ca-ti
-on by in-sert-ing
- []
-
-) [22]
-\openout2 = `thesis-back.aux'.
-
- (./thesis-back.tex
-No file thesis-main.bbl.
-(./vita.tex
+] (vita.tex
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
 [] \OT1/cmr/bx/n/12 Pro-fes-sional
  []
 
-) [23
+) [18
 
+] [18
 
-
-] [23
-
-]) (./thesis-main.aux (./thesis-front.aux) (./thesis-chapter1.aux)
-(./thesis-chapter2.aux) (./thesis-chapter3.aux) (./thesis-appendixA.aux)
-(./thesis-appendixB.aux) (./thesis-appendixC.aux) (./thesis-appendixD.aux)
-(./thesis-back.aux))
+]) (thesis-main.aux (thesis-front.aux) (thesis-chapter1.aux)
+(thesis-chapter2.aux) (thesis-chapter3.aux) (thesis-chapter4.aux)
+(thesis-back.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1752 strings out of 94412
- 25777 string characters out of 1172319
- 2071659 words of memory out of 4523223
- 4900 multiletter control sequences out of 10000+50000
- 14118 words of font info for 49 fonts, out of 2000000 for 2000
- 582 hyphenation exceptions out of 5000
- 32i,9n,32p,647b,240s stack positions out of 5000i,500n,6000p,200000b,40000s
+ 2205 strings out of 95340
+ 32507 string characters out of 1184155
+ 99822 words of memory out of 1500000
+ 5351 multiletter control sequences out of 110000
+ 10265 words of font info for 36 fonts, out of 1200000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 36i,8n,38p,589b,260s stack positions out of 5000i,500n,10000p,200000b,5000s
+<C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx10.pfb><C:/Program Fi
+les/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.7/f
+onts/type1/bluesky/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/blues
+ky/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr10.pfb><
+C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.pfb><C:/Program Files/
+MiKTeX 2.7/fonts/type1/bluesky/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.7/fonts/t
+ype1/bluesky/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cm
+r8.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsl12.pfb><C:/Progr
+am Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
+2.7/fonts/type1/bluesky/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/
+bluesky/cm/cmti8.pfb>
+Output written on thesis-main.pdf (28 pages, 144329 bytes).
 PDF statistics:
- 173 PDF objects out of 300000
- 0 named destinations out of 131072
- 6 words of extra memory for PDF output out of 10000
-</usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmti8.pfb></usr/lo
-cal/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmtt12.pfb></usr/local/teTeX
-/share/texmf.tetex/fonts/type1/bluesky/cm/cmti12.pfb></usr/local/teTeX/share/te
-xmf.tetex/fonts/type1/bluesky/cm/cmmi8.pfb></usr/local/teTeX/share/texmf.tetex/
-fonts/type1/bluesky/cm/cmsy10.pfb></usr/local/teTeX/share/texmf.tetex/fonts/typ
-e1/bluesky/cm/cmr6.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/
-cm/cmr7.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmr8.pfb
-></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmr10.pfb></usr/loc
-al/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmbx10.pfb></usr/local/teTeX/
-share/texmf.tetex/fonts/type1/bluesky/cm/cmbx8.pfb></usr/local/teTeX/share/texm
-f.tetex/fonts/type1/bluesky/cm/cmmi12.pfb></usr/local/teTeX/share/texmf.tetex/f
-onts/type1/bluesky/cm/cmsl12.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type
-1/bluesky/cm/cmbx12.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky
-/cm/cmr12.pfb>
-Output written on thesis-main.pdf (35 pages, 178102 bytes).
+ 161 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
