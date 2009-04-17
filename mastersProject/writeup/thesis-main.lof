@@ -1,6 +1,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Just a Figure}}{3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Just a Figure\relax }}{3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{14}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{14}
 \addvspace {10\p@ }
