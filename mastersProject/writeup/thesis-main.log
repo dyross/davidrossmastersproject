@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  17 APR 2009 14:58
+This is pdfeTeX, Version 3.141592-1.30.4-2.2 (Web2C 7.5.5) (format=pdflatex 2006.11.9)  18 APR 2009 18:26
 entering extended mode
-**C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
-ersProject/writeup/thesis-main.tex
-
-("C:/Documents and Settings/gpu/Desktop/David Ross/davidrossmastersproject/mast
-ersProject/writeup/thesis-main.tex"
+\write18 enabled.
+**thesis-main.tex
+(./thesis-main.tex
 LaTeX2e <2005/12/01>
-Babel <v3.8h> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman, ngerman, french, loaded.
-(wuthesis.cls
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(./wuthesis.cls
 *************************************************************
 ** Wash U - Sever Institute thesis class 
 ** version 1.7a, 07/01/2008
@@ -16,9 +17,9 @@ rman, ngerman, french, loaded.
 ** with revisions by Long Duan and Greg Hackmann 
 *************************************************************
 Document Class: wuthesis 07/01/2008 v1.7a
-("C:\Program Files\MiKTeX 2.7\tex\latex\base\book.cls"
+(/usr/local/teTeX/share/texmf.local/tex/latex/base/book.cls
 Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.7\tex\latex\base\bk12.clo"
+(/usr/local/teTeX/share/texmf.local/tex/latex/base/bk12.clo
 File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -34,7 +35,7 @@ File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.7\tex\latex\ltxmisc\ulem.sty"
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/ulem/ulem.sty
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
@@ -45,40 +46,40 @@ File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 Package: ulem 2000/05/26
 \ULdepth=\dimen104
 )
-("C:\Program Files\MiKTeX 2.7\tex\latex\setspace\setspace.sty"
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
-) ("C:\Program Files\MiKTeX 2.7\tex\latex\carlisle\remreset.sty")
+) (/usr/local/teTeX/share/texmf.tetex/tex/latex/carlisle/remreset.sty)
 \chapterpadding=\skip44
 \chaptervspace=\skip45
 \appendixhspace=\skip46
 \hour=\count89
 \minute=\count90
 )
-("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\epsfig.sty"
+(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
+(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
+(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
+(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/graphics.sty
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
+(/usr/local/teTeX/share/texmf.local/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 90.
 
-("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\pdftex.def"
-File: pdftex.def 2007/06/12 v0.04h Graphics/color for pdfTeX
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen105
@@ -86,160 +87,229 @@ File: pdftex.def 2007/06/12 v0.04h Graphics/color for pdfTeX
 )
 \epsfxsize=\dimen107
 \epsfysize=\dimen108
-) (ellipsis.sty
+)
+(./ellipsis.sty
 Package: ellipsis 2004/9/28 v1.6 ellipsis: fixes spacing around \protect \globa
 l \let \OT1\textellipsis .\kern \fontdimen 3\font .\kern \fontdimen 3\font .\ke
 rn \fontdimen 3\font \OT1\textellipsis 
-
-("C:\Program Files\MiKTeX 2.7\tex\latex\tools\xspace.sty"
-Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
-))
-("C:\Program Files\MiKTeX 2.7\tex\latex\caption\caption.sty"
-Package: caption 2008/08/24 v3.1j Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.7\tex\latex\caption\caption3.sty"
-Package: caption3 2008/08/24 v3.1j caption3 kernel (AR)
+ (/usr/local/teTeX/share/texmf.local/tex/latex/tools/xspace.sty
+Package: xspace 2006/02/12 v1.11 Space after command names (DPC,MH)
+)) (/usr/local/teTeX/share/texmf.tetex/tex/latex/caption/caption.sty
+Package: caption 2004/07/16 v3.0c Customising captions (AS)
 \captionmargin=\dimen109
-\captionmargin@=\dimen110
-\captionwidth=\dimen111
-\caption@indent=\dimen112
-\caption@parindent=\dimen113
-\caption@hangindent=\dimen114
+\captionwidth=\dimen110
+\captionindent=\dimen111
+\captionparindent=\dimen112
+\captionhangindent=\dimen113
 )
-\c@ContinuedFloat=\count92
-)
-("C:\Program Files\MiKTeX 2.7\tex\latex\subfigure\subfigure.sty"
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip47
 \subfigcapskip=\skip48
-\subfigcaptopadj=\dimen115
+\subfigcaptopadj=\dimen114
 \subfigbottomskip=\skip49
-\subfigcapmargin=\dimen116
+\subfigcapmargin=\dimen115
 \subfiglabelskip=\skip50
-\c@subfigure=\count93
-\c@lofdepth=\count94
-\c@subtable=\count95
-\c@lotdepth=\count96
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.7\tex\latex\subfigure\subfigure.cfg")
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
-(thesis-main.aux (thesis-chapter3.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+(./thesis-main.aux (./thesis-chapter1.aux) (./thesis-chapter2.aux)
+(./thesis-chapter3.aux
 
-("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
-[Loading MPS to PDF converter (version 2006.09.02).]
+LaTeX Warning: Label `fig:carsNoGradient' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:carsNoGradient' multiply defined.
+
+
+LaTeX Warning: Label `fig:carsGradient' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:carsGradient' multiply defined.
+
+) (./thesis-chapter4.aux))
+\openout1 = `thesis-main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+(/usr/local/teTeX/share/texmf.local/tex/context/base/supp-pdf.tex
+(/usr/local/teTeX/share/texmf.local/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count96
 \scratchcounter=\count97
-\scratchdimen=\dimen117
+\scratchtoks=\toks16
+\scratchdimen=\dimen116
+\scratchskip=\skip53
+\scratchmuskip=\muskip10
 \scratchbox=\box29
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen118
-\MPnumerator=\count101
-\everyMPtoPDFconversion=\toks16
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen117
+\onepoint=\dimen118
+\onebasepoint=\dimen119
+\minusone=\count98
+\thousandpoint=\dimen120
+\onerealpoint=\dimen121
+\emptytoks=\toks17
+\nextbox=\box30
+\nextdepth=\dimen122
+\everyline=\toks18
+\!!counta=\count99
+\!!countb=\count100
+\recursecounter=\count101
 )
-LaTeX Info: Redefining \dots on input line 64.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfigure package is loaded.
-Package caption Info: End \AtBeginDocument code.
- (thesis-chapter1.tex
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen123
+\MPnumerator=\count105
+\everyMPtoPDFconversion=\toks19
+)
+LaTeX Info: Redefining \dots on input line 28.
+ (/usr/local/teTeX/share/texmf.tetex/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/ms/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip54
+\RaggedLeftLeftskip=\skip55
+\RaggedRightLeftskip=\skip56
+\CenteringRightskip=\skip57
+\RaggedLeftRightskip=\skip58
+\RaggedRightRightskip=\skip59
+\CenteringParfillskip=\skip60
+\RaggedLeftParfillskip=\skip61
+\RaggedRightParfillskip=\skip62
+\JustifyingParfillskip=\skip63
+\CenteringParindent=\skip64
+\RaggedLeftParindent=\skip65
+\RaggedRightParindent=\skip66
+\JustifyingParindent=\skip67
+)
+\openout2 = `thesis-chapter1.aux'.
+
+
+(./thesis-chapter1.tex
 Chapter 1.
 ) [1
 
 
 
-{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.7/pdftex/config/
-pdftex.map}] (thesis-chapter2.tex
+{/usr/local/teTeX/share/texmf.local/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `thesis-chapter2.aux'.
+
+
+(./thesis-chapter2.tex
 Chapter 2.
 ) [2
 
 
 
-] (thesis-chapter3.tex
+]
+\openout2 = `thesis-chapter3.aux'.
+
+ (./thesis-chapter3.tex
 Chapter 3.
-<figures/2skyPCA.jpg, id=10, 562.1pt x 421.575pt>
-File: figures/2skyPCA.jpg Graphic file (type jpg)
- <use figures/2skyPCA.jpg>
-<figures/2skyMask.jpg, id=11, 562.1pt x 421.575pt>
-File: figures/2skyMask.jpg Graphic file (type jpg)
- <use figures/2skyMask.jpg>
-
-LaTeX Warning: Reference `fig:2skyPCA' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Reference `fig:2skyMask' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Reference `fig:2skyPCA' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Reference `fig:2skyMask' on page 3 undefined on input line 33.
-
 [3
 
 
 
-] <figures/194cars.jpg, id=15, 562.1pt x 421.575pt>
-File: figures/194cars.jpg Graphic file (type jpg)
+] <figures/2skyPCA.jpg, id=17, 562.1pt x 421.575pt>
+File: figures/2skyPCA.jpg Graphic file (type jpg)
 
-<use figures/194cars.jpg>
-<figures/194carsGradient.jpg, id=16, 562.1pt x 421.575pt>
+<use figures/2skyPCA.jpg> <figures/2skyMask.jpg, id=18, 562.1pt x 421.575pt>
+File: figures/2skyMask.jpg Graphic file (type jpg)
+
+<use figures/2skyMask.jpg>
+
+LaTeX Warning: Reference `fig:2skyPCA' on page 4 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig:2skyMask' on page 4 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig:2skyPCA' on page 4 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig:2skyMask' on page 4 undefined on input line 37.
+
+<figures/194cars.jpg, id=19, 562.1pt x 421.575pt>
+File: figures/194cars.jpg Graphic file (type jpg)
+ <use figures/194cars.jpg>
+<figures/194carsGradient.jpg, id=20, 562.1pt x 421.575pt>
 File: figures/194carsGradient.jpg Graphic file (type jpg)
 
-<use figures/194carsGradient.jpg> [4 <figures/2skyPCA.jpg> <figures/2skyMask.jp
-g>] [5 <figures/194cars.jpg> <figures/194carsGradient.jpg>]
+<use figures/194carsGradient.jpg> [4 <./figures/2skyPCA.jpg> <./figures/2skyMas
+k.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 68.
+ [5 <./figures/194cars.jpg> <./figures/194carsGradient.jpg>]
 
-! LaTeX Error: \begin{enumerate} on input line 100 ended by \end{enumeration}.
+LaTeX Warning: Reference `fig:2dgui' on page 6 undefined on input line 80.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 \end{enumeration}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[6] [7]) [8]
+\openout2 = `thesis-chapter4.aux'.
 
-) [6] (thesis-main.aux (thesis-chapter1.aux) (thesis-chapter2.aux)
-(thesis-chapter3.aux))
+ (./thesis-chapter4.tex
+Chapter 4.
+) [9
+
+
+
+] (./thesis-main.aux (./thesis-chapter1.aux) (./thesis-chapter2.aux)
+(./thesis-chapter3.aux) (./thesis-chapter4.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2265 strings out of 95340
- 33485 string characters out of 1184155
- 95822 words of memory out of 1500000
- 5456 multiletter control sequences out of 110000
- 6168 words of font info for 23 fonts, out of 1200000 for 2000
- 14 hyphenation exceptions out of 8191
- 36i,6n,38p,517b,296s stack positions out of 5000i,500n,10000p,200000b,5000s
-<C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.7/fo
-nts/type1/bluesky/cm/cmr12.pfb>
-Output written on thesis-main.pdf (6 pages, 100918 bytes).
+ 1823 strings out of 94412
+ 26764 string characters out of 1172319
+ 2072180 words of memory out of 4523744
+ 5018 multiletter control sequences out of 10000+50000
+ 8606 words of font info for 31 fonts, out of 2000000 for 2000
+ 582 hyphenation exceptions out of 5000
+ 32i,6n,35p,1109b,240s stack positions out of 5000i,500n,6000p,200000b,40000s
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 131072)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 57 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 21 words of extra memory for PDF output out of 10000
+</usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmex10.pfb></usr/l
+ocal/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmmi8.pfb></usr/local/teTeX
+/share/texmf.tetex/fonts/type1/bluesky/cm/cmr8.pfb></usr/local/teTeX/share/texm
+f.tetex/fonts/type1/bluesky/cm/cmsy10.pfb></usr/local/teTeX/share/texmf.tetex/f
+onts/type1/bluesky/cm/cmmi12.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type
+1/bluesky/cm/cmr10.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/
+cm/cmr12.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmbx12.
+pfb>
+Output written on thesis-main.pdf (9 pages, 126948 bytes).
