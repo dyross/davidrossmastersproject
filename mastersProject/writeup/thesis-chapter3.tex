@@ -109,6 +109,8 @@ Once webcam scenes are projected onto a PCA basis, there are many different ways
 In this section, we will present several different criteria for evaluating an appearance model of a scene,
 the meaning behind each criteria, and results.
 
+[I don't love the term criteria, but I think it encapsulates the idea of this section...]
+
 \subsection{PCA coefficient vector magnitude}
 
 For each image in a scene, PCA gives a vector of coefficients that correspond to the best linear combination
@@ -117,8 +119,11 @@ magnitude of this vector.  This gives
 
 \subsection{Residual Error}
 
-% figure of subplot with image, reconstruction, and residual
+Given an image and a PCA basis, we can project the image onto the basis and see how well we can reconstruct the image.
 
+[figure of subplot with image, reconstruction, and residual]
+
+[figure of montage sorted be residualSSD, showing some noisy images and some with real foreground objects]
 
 
 \subsection{Variance Model}
@@ -127,12 +132,14 @@ We can estimate the variance image of a webcam scene as the average of the squar
 
 One we have this variance image, we can attempt to isolate independent pixels a standard score image.
 
-% figure with variance image, and some zScores
+[figure with variance image, residual image, and zScoreImage, highlighting how knowing the variance shows independent areas ]
 
 \subsection{Probabilistic}
 
 We can also try to learn about an image reconstruction by treating its residual image as samples from an 
 underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed, but as shown in \ref{fig:severalHists}, this is not always the case.  We have found that these distributions vary in the same way as webcam scenes, and analyzing them in the right way tells an interesting story.
+
+[For each of these I'm going to explain what they should show, show a couple histograms with high values for them, and some example images]
 
 \begin{figure}
 	\centering
