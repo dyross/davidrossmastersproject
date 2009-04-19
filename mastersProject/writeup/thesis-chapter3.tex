@@ -90,11 +90,10 @@ A simple but effective algorithm for this problem uses the L2 norm in image spac
 
 \subsection{Two-dimensional Explorer}
 
-% figure with the 2d GUI
 
 \begin{figure}
 	\centering
-		\includegraphics[width=0.45\textwidth]{figures/2dGui.jpg}
+		\includegraphics[width=1\textwidth]{figures/2dGui.jpg}
 	\label{fig:2dGui}
 	
 		\caption[Exploring 2D image space using a simple GUI.]{Figure \ref{fig:2dGui} shows a webcam scene displayed using the 2D GUI.}
@@ -143,7 +142,7 @@ underlying probability density function.  If image deviations are due mostly to 
 
 \begin{figure}
 	\centering
-		\includegraphics[width=0.45\textwidth]{figures/severalHists.jpg}
+		\includegraphics[width=1\textwidth]{figures/severalHists.jpg}
 	\label{fig:severalHists}
 	
 		\caption[Several residual image histograms.]{Several residual image histograms and the the best approximation of a normal distribution fitting the data.}
@@ -154,19 +153,26 @@ underlying probability density function.  If image deviations are due mostly to 
 
 The most obvious way to do this is to treat each residual image pixel as a sample from a normal distribution.  We can easily estimate the mean and variance of this PDF and then 
 
+$$f(x|\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}$$
+
+
 \item{\textbf{Laplacian Distribution Likelihood}}
 
 Many of the residual images have a majority of pixels that are very close zero.  This causes the histogram to look very similar to a laplacian distribution.
 
+$$f(x|\mu,\beta)=\frac{1}{2\beta}e^{\frac{-|x-\mu|}{\beta}}$$
+
 \item{\textbf{Kurtosis}}
 
-The kurtosis of a real-valued random variable is a measure of its peakedness.  Larger values of kurtosis means more variance is due to less frequent extreme deviations rather than frequent less extreme deviations.  It is defined as $\gamma_2=\frac{\mu_4}{\sigma^4}$ where $\mu_4$ is the fourth moment about the mean and $\sigma^4$ is the square of the variance.
+The kurtosis of a real-valued random variable is a measure of its peakedness.  Larger values of kurtosis means more variance is due to less frequent extreme deviations rather than frequent less extreme deviations.  It is defined as $$\gamma_2=\frac{\mu_4}{\sigma^4}$$ where $\mu_4$ is the fourth moment about the mean and $\sigma^4$ is the estimated standard deviation to the fourth power.  For a function $f(x)$, the $k^{th}$ moment about the mean is defined as 
+
+$$\mu_k = \int_{-\infty}^{\infty}{(x-\mu)^kf(x)dx}$$
 
 We can use this measure 
 
 \item{\textbf{Skewness}}
 
-The skewness of a random variable is a measure of asymmetry.  Higher skewness values mean deviations on one side of the mean do not have corresponding deviations on the other side.  It is defined as $\gamma_1=\frac{\mu_3}{\sigma^3}$ where $\mu_3$ is the third moment about the mean and $\sigma^3$ is the cube of the standard deviation.
+The skewness of a random variable is a measure of asymmetry.  Higher skewness values mean deviations on one side of the mean do not have corresponding deviations on the other side.  It is defined as $$\gamma_1=\frac{\mu_3}{\sigma^3}$$ where $\mu_3$ is the third moment about the mean and $\sigma^3$ is the cube of the standard deviation.
 
 This measure can be used
 
