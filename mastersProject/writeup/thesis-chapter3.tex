@@ -110,6 +110,19 @@ Once webcam scenes are projected onto a PCA basis, there are many different ways
 
 \subsection{PCA coefficient vector magnitude}
 
+\begin{figure}
+	\centering
+	\subfigure[]{
+		\includegraphics[width=.8\textwidth]{figures/vectorMagnitudeMean.jpg}
+	\label{fig:vectorMagnitudeMean}
+	}
+	\subfigure[]{
+		\includegraphics[width=1\textwidth]{figures/vectorMagnitudeMontage.jpg}
+	\label{fig:vectorMagnitudeMontage}
+	}
+		\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:vectorMagnitudeMean} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:vectorMagnitudeMontage} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
+\end{figure}
+
 For each image in a scene, PCA gives a vector of coefficients that correspond to the best linear combination of basis images to reconstruct that image.  From this vector, we can assign each image a score equal to the magnitude of this vector.  For a vector $v = (v_0, v_1, ..., v_n)$, the vector magnitude is $$||v||=\sqrt{\sum_{i=0}^nv_i^2}$$This effectively gives us a measure for how far from the mean image in our basis space each image is.   \ref{fig:vectorMagnitudeMean} shows the mean image of a webcam scene and \ref{fig:vectorMagnitudeMontage} shows several images from that webcam scene that are especially far from the mean.
 
 \subsection{Residual Error}
