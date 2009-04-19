@@ -68,11 +68,11 @@ In this section, we present several tools to visualize the webcam scene based on
 \begin{figure}
 	\centering
 	\subfigure[]{
-		\includegraphics[width=0.45\textwidth]{figures/golfMontageNaive.jpg}
+		\includegraphics[width=1\textwidth]{figures/golfMontageNaive.jpg}
 	\label{fig:golfMontageNaive}
 	}
 	\subfigure[]{
-		\includegraphics[width=0.45\textwidth]{figures/golfMontageSmart.jpg}
+		\includegraphics[width=1\textwidth]{figures/golfMontageSmart.jpg}
 	\label{fig:golfMontageSmart}
 	}
 		\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:golfMontageNaive} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:golfMontageSmart} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
@@ -86,7 +86,7 @@ The simplest way to visualize a webcam scene is to view a montage of several ima
 
 In several of these montages, we notice that many of the most unusual images are similar to each other.  This presents the problem of finding unusual images that are different from the images we have already chosen.
 
-A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j)$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $d = \min_i(D(x_0, x_i))$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.
+A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j).$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.
 
 \subsection{Two-dimensional Explorer}
 
@@ -120,7 +120,23 @@ magnitude of this vector.  This gives
 
 Given an image and a PCA basis, we can project the image onto the basis and see how well we can reconstruct the image.
 
+\begin{figure}
+	\centering
+		\includegraphics[width=1\textwidth]{figures/residualReconstruction.jpg}
+	\label{fig:residualReconstruction}
+	
+		\caption[Residual Reconstruction.]{Figure \ref{fig:2dGui} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
+\end{figure}
+
 [figure of subplot with image, reconstruction, and residual]
+
+\begin{figure}
+	\centering
+		\includegraphics[width=1\textwidth]{figures/residualSSDmontage.jpg}
+	\label{fig:residualSSDmontage}
+	
+		\caption[Residual SSD Montage.]{Figure \ref{fig:residualSSDmontage} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
+\end{figure}
 
 [figure of montage sorted be residualSSD, showing some noisy images and some with real foreground objects]
 
@@ -130,6 +146,14 @@ Given an image and a PCA basis, we can project the image onto the basis and see 
 We can estimate the variance image of a webcam scene as the average of the square of each residual image.
 
 One we have this variance image, we can attempt to isolate independent pixels a standard score image.
+
+\begin{figure}
+	\centering
+		\includegraphics[width=1\textwidth]{figures/severalVarianceImages.jpg}
+	\label{fig:servalVarianceImages}
+	
+		\caption[Residual SSD Montage.]{Figure \ref{fig:servalVarianceImages} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
+\end{figure}
 
 [figure with variance image, residual image, and zScoreImage, highlighting how knowing the variance shows independent areas ]
 
