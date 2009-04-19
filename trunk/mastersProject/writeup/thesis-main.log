@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  18 APR 2009 23:20
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  19 APR 2009 00:03
 entering extended mode
 **C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
 ersProject/writeup/thesis-main.tex
@@ -227,15 +227,18 @@ See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:severalHists' on page 6 undefined on input line 1
-35.
+40.
 
-<figures/severalHists.jpg, id=32, 1686.3pt x 956.57375pt>
+[6] <figures/severalHists.jpg, id=35, 1686.3pt x 956.57375pt>
 File: figures/severalHists.jpg Graphic file (type jpg)
 
-<use figures/severalHists.jpg> [6]) [7 <figures/severalHists.jpg>]
+<use figures/severalHists.jpg> [7 <figures/severalHists.jpg>]) [8]
 (thesis-main.aux (thesis-chapter3.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -254,9 +257,9 @@ C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.pfb><C:/Program Files/
 MiKTeX 2.7/fonts/type1/bluesky/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.7/fonts/t
 ype1/bluesky/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cm
 sy10.pfb>
-Output written on thesis-main.pdf (7 pages, 524230 bytes).
+Output written on thesis-main.pdf (8 pages, 525539 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
