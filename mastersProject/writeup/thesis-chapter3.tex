@@ -80,13 +80,13 @@ In this section, we present several tools to visualize the webcam scene based on
 
 \subsection{Image Montage}
 
-The simplest way to visualize a webcam scene is to view a montage of several images from that scene.  We can easily sort the images along some dimension, and then show the $n$ images with the highest values in that dimension.
+The simplest way to visualize a webcam scene is to view a montage of several images from that scene.  We can easily sort the images along some dimension, and then show the $n$ images with the highest values in that dimension.  \ref{fig:golfMontageNaive} Is an example montage of several interesting images from a webcam scene.
 
 \subsection{Intelligent Image Montage}
 
 In several of these montages, we notice that many of the most unusual images are similar to each other.  This presents the problem of finding unusual images that are different from the images we have already chosen.
 
-A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j).$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.
+A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j).$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.  \ref{fig:golfMontageSmart} shows how similar images are omitted by viewing results in this way.
 
 \subsection{Two-dimensional Explorer}
 
@@ -99,28 +99,24 @@ A simple but effective algorithm for this problem uses the L2 norm in image spac
 		\caption[Exploring 2D image space using a simple GUI.]{Figure \ref{fig:2dGui} shows a webcam scene displayed using the 2D GUI.}
 \end{figure}
 
-Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dGui}, displays a a plot images from a webcam scene
+Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dGui}, displays a a plot of image scores for two different criteria, and displays the image corresponding to a mouseovered datapoint.  Using this GUI, it is possible to see which criterias are related and which are not, as well as makes it easier to learn how the criteria effects the scene. [I don't really know what to say in this section].
 
 
 \section{Criteria}
 
-Once webcam scenes are projected onto a PCA basis, there are many different ways to analyze the results.
-In this section, we will present several different criteria for evaluating an appearance model of a scene,
-the meaning behind each criteria, and results.
+Once webcam scenes are projected onto a PCA basis, there are many different ways to analyze the results.  In this section, we will present several different criteria for evaluating this appearance model of a scene, the meaning behind each criteria, and results.
 
 [I don't love the term criteria, but I think it encapsulates the idea of this section...]
 
 \subsection{PCA coefficient vector magnitude}
 
-For each image in a scene, PCA gives a vector of coefficients that correspond to the best linear combination
-of basis images to reconstruct that image.  From this vector, we can assign each image a score equal to the
-magnitude of this vector.  This gives
+For each image in a scene, PCA gives a vector of coefficients that correspond to the best linear combination of basis images to reconstruct that image.  From this vector, we can assign each image a score equal to the magnitude of this vector.  For a vector $v = (v_0, v_1, ..., v_n)$, the vector magnitude is $$||v||=\sqrt{\sum_{i=0}^nv_i^2}$$This effectively gives us a measure for how far from the mean image in our basis space each image is.   \ref{fig:vectorMagnitudeMean} shows the mean image of a webcam scene and \ref{fig:vectorMagnitudeMontage} shows several images from that webcam scene that are especially far from the mean.
 
 \subsection{Residual Error}
 
 Given an image and a PCA basis, we can project the image onto the basis and see how well we can reconstruct the image.
 
-\begin{figure}
+\begin{figure}%[htb]
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualReconstruction.jpg}
 	\label{fig:residualReconstruction}
@@ -145,7 +141,7 @@ Given an image and a PCA basis, we can project the image onto the basis and see 
 
 We can estimate the variance image of a webcam scene as the average of the square of each residual image.
 
-One we have this variance image, we can attempt to isolate independent pixels a standard score image.
+One we have this variance image, we can attempt to isolate independent pixels in a z-score image.  We define our z-score image as $$Z(x,y) = \frac{R(x,y)} { V(x,y)}$$ where $R(x,y)$ is the residual value of the pixel and $V(x,y)$ is the variance value of the pixel.
 
 \begin{figure}
 	\centering
