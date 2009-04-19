@@ -1,16 +1,20 @@
 \chapter{Visualization Tools}
 \label{cpt:tools}
 
-The main contribution of this project automatic methods for visualizing how a webcam
-scene varies, and how we can understand the most important variations.  In most natural
+The main contribution of this project is automatic methods for visualizing how a webcam
+scene varies, and for understanding the most important variations.  In most natural
 scenes, we notice changes in lighting, weather, and camera conditions which are interesting,
 but fail to describe the typical behavior of a scene.  The goal of these tools is to learn 
-these variations and to point out changes separate from them.  PCA is a commonly used too, and
-captures a linear model of consistent image variations.
+these variations and to point out changes independent of them.  PCA is a commonly used tool, and
+captures a linear model of consistent image variations.  By analyzing the results of certain PCA setups, we can obtain important and interesting information.
 
 \section{Setup}
 
+The most obvious way to learn about scenes is to take the PCA decomposition of the entire webcam scene.  Unfortunately, our data-set is too large for this to be feasible, so we must limit our inputs.  Instead of taking a random subset of the images, if we can intelligently limit the images we give, we can get better inputs.
+
 \subsection{Temporal Narrowing}
+
+The AMOS data-set consists mostly of outdoor scenes.  These outdoor scenes vary significantly over the course of a day, going from night to day and back.  The change in lighting dominates all other changes across the scene, and causes many images to be completely dark.  Instead of wasting 
 
 \subsection{Sky Mask}
 
@@ -57,13 +61,23 @@ look at the gradient magnitude images of a scene.
 
 In this section, we present several tools to visualize the webcam scene based on criteria we will discuss in the next section.
 
+% figure with a normal montage and then smart montage - potentiall from the golf scene
+
 \subsection{Image Montage}
+
+The simplest way to visualize a webcam scene is to view a montage of several images from that scene.  We can easily sort the images along some dimension, and then show the $n$ images with the highest values in that dimension.
 
 \subsection{Intelligent Image Montage}
 
+In several of these montages, we notice that many of the most unusual images are similar to each other.  This presents the problem of finding unusual images that are different from the images we have already chosen.
+
+A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $$D_{i,j} = L2\_norm(x_i, x_j)$$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.
+
 \subsection{Two-dimensional Explorer}
 
-Using a simple GUI, we can explore a webcam scene in two dimensions.
+% figure with the 2d GUI
+
+Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dgui}, displays a a plot of all images on
 
 
 \section{Criteria}
@@ -86,14 +100,16 @@ magnitude of this vector.  This gives
 
 \subsection{Variance Model}
 
-We can estimate the variance image of a webcam scene by summing the residual images.
+We can estimate the variance image of a webcam scene as the average of the square of each residual image.
+
+One we have this variance image, we can attempt to isolate independent pixels a standard score image.
 
 % figure with variance image, and some zScores
 
 \subsection{Probabilistic}
 
 We can also try to learn about an image reconstruction by treating its residual image as samples from an 
-underlying probability density function.
+underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed.
 
 % figure showing different residual histograms
 
@@ -104,13 +120,21 @@ The most obvious way to do this is to treat each residual image pixel as a sampl
 
 \item{\textbf{Laplacian Distribution Likelihood}}
 
-Many of the residual images have a majority of pixels that are very close zero.  This causes the histogram to look
-very similar to a laplacian distribution.
+Many of the residual images have a majority of pixels that are very close zero.  This causes the histogram to look very similar to a laplacian distribution.
 
 \item{\textbf{Kurtosis}}
 
+The kurtosis of a real-valued random variable is a measure of its peakedness.  Larger values of kurtosis means more variance is due to less frequent extreme deviations rather than frequent less extreme deviations.  It is defined as $$\gamma_2=\frac{\mu_4}{\sigma^4}$$ where $\mu_4$ is the fourth moment about the mean and $\sigma^4$ is the square of the variance.
+
+We can use this measure 
+
 \item{\textbf{Skewness}}
 
-\end{enumeration}
+The skewness of a random variable is a measure of asymmetry.  Higher skewness values mean deviations on one side of the mean do not have corresponding deviations on the other side.  It is defined as $$\gamma_1=\frac{\mu_3}{\sigma^3}$$ where $\mu_3$ is the third moment about the mean and $\sigma^3$ is the cube of the standard deviation.
+
+This measure can be used
+
+
+\end{enumerate}
 
 
