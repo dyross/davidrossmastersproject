@@ -17,31 +17,35 @@ The most obvious way to learn about scenes is to take the PCA decomposition of t
 The AMOS data-set consists mostly of outdoor scenes.  These outdoor scenes vary significantly over the course of a day, going from night to day and back.  The change in lighting dominates all other changes across the scene, and causes many images to be completely dark.  Instead of wasting 
 
 \subsection{Sky Mask}
-
 In many outdoor scenes, even when narrowed to a particular time of day, the most difficult image
 variation to characterize is the sky.  PCA has a difficult time learning changes in sunlight, clouds,
-and other characteristics of the sky, so this difficulty causes
+and other characteristics of the sky, even among a set of images of one time of day.  The variance in the sky dominates the PCA reconstruction, causing it to ignore information that is more interesting in this context.
 
-Fortunately, it is fairly easy to learn which religions of an image are most affected by this challenge.
+Fortunately, it is fairly easy to learn which regions of an image are most affected by this.  In practice, a side effect of the rising and setting of the sun is that the first principal component of most scenes is the sky, as shown in \ref{fig:2skyPCA}.  By thresholding the values of this vector, we can effectively segment the sky from the rest of the image, as shown in \ref{fig:2skyMask}.
+
+This simple mask allows PCA to focus on more interesting changes in the image, and most of the results that follow use a simple mask to ignore the sky regions of the images.  By setting all pixels in the sky to 0, we can effectively remove this difficulty.
+
 
 \begin{figure}
 	\centering
 	\subfigure[]{
 		\includegraphics[width=0.45\textwidth]{figures/2skyPCA.jpg}
-	\label{fig:carsNoGradient}
+	\label{fig:2skyPCA}
 	}
 	\subfigure[]{
 		\includegraphics[width=0.45\textwidth]{figures/2skyMask.jpg}
-	\label{fig:carsGradient}
+	\label{fig:2skyMask}
 	}
-		\caption[Learning a sky mask for a webcam scene.]{Figure \ref{fig:2skyPCA} shows the first PCA component of a webcam scene.  By adding or subtracting this component, we control how dark or how light the sky is. Figure \ref{fig:2skyMask} shows that a simple threshholding of this image effectively segments the sky from the rest of the image.}
-\end{figure}
+		\caption[Learning a sky mask for a webcam scene.]{Figure \ref{fig:2skyPCA} shows the first PCA component of a webcam scene.  By adding or subtracting this component, we control how dark or how light the sky is. Figure \ref{fig:2skyMask} shows that a simple thresholding of this image effectively segments the sky from the rest of the image.}
+		
+\end{figure}\subsection{Gradient Image}
 
-\subsection{Gradient Image}
+Webcam images are very high-dimensional - a typical 320 x 240 gray scale image has 76,800 pixels, each of
+which is a value from 0 to 255.  One way to simplify this space without changing the size of the image is to look at the gradient magnitude images of a scene.  
 
-A webcam images are very high-dimensional - a typical 320 x 240 gray scale image has 76,800 pixels, each of
-which is a value from 0 to 255.  One way to simplify this space without affecting the size of the image is to
-look at the gradient magnitude images of a scene.
+The x and y derivatives of an image are defined as $I_x(x,y) = I(x,y)-I(x-1,y)$ and $I_y(x,y) = I(x,y)-I(x,y-1)$ where the function $I(x,y)$ describes the intensities of an image's pixels.  Once we have calculated the derivative images, we define the gradient magnitude of an image to be $G(x,y) = I_x(x,y)^2 + I_y(x,y)^2$.
+
+The gradient magnitude image highlights edges in an image, as they are image locations where pixel values differ greatly from their neighbors.  By performing PCA on the gradient magnitude images, we tend to ignore the potentially noisy surfaces of objects, and instead focus on the locations of the objects.  \ref{fig:carsNoGradient} and \ref{fig:carsGradient} show the edges of an interesting webcam image highlighted in a gradient magnitude image.
 
 
 \begin{figure}
@@ -61,7 +65,18 @@ look at the gradient magnitude images of a scene.
 
 In this section, we present several tools to visualize the webcam scene based on criteria we will discuss in the next section.
 
-% figure with a normal montage and then smart montage - potentiall from the golf scene
+\begin{figure}
+	\centering
+	\subfigure[]{
+		\includegraphics[width=0.45\textwidth]{figures/golfMontageNaive.jpg}
+	\label{fig:golfMontageNaive}
+	}
+	\subfigure[]{
+		\includegraphics[width=0.45\textwidth]{figures/golfMontageSmart.jpg}
+	\label{fig:golfMontageSmart}
+	}
+		\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:golfMontageNaive} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:golfMontageSmart} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
+\end{figure}
 
 \subsection{Image Montage}
 
@@ -71,13 +86,21 @@ The simplest way to visualize a webcam scene is to view a montage of several ima
 
 In several of these montages, we notice that many of the most unusual images are similar to each other.  This presents the problem of finding unusual images that are different from the images we have already chosen.
 
-A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $$D_{i,j} = L2\_norm(x_i, x_j)$$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.
+A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j)$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $d = \min_i(D(x_0, x_i))$In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.
 
 \subsection{Two-dimensional Explorer}
 
 % figure with the 2d GUI
 
-Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dgui}, displays a a plot of all images on
+\begin{figure}
+	\centering
+		\includegraphics[width=0.45\textwidth]{figures/2dGui.jpg}
+	\label{fig:2dGui}
+	
+		\caption[Exploring 2D image space using a simple GUI.]{Figure \ref{fig:2dGui} shows a webcam scene displayed using the 2D GUI.}
+\end{figure}
+
+Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dGui}, displays a a plot images from a webcam scene
 
 
 \section{Criteria}
@@ -109,9 +132,15 @@ One we have this variance image, we can attempt to isolate independent pixels a 
 \subsection{Probabilistic}
 
 We can also try to learn about an image reconstruction by treating its residual image as samples from an 
-underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed.
+underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed, but as shown in \ref{fig:severalHists}, this is not always the case.  We have found that these distributions vary in the same way as webcam scenes, and analyzing them in the right way tells an interesting story.
 
-% figure showing different residual histograms
+\begin{figure}
+	\centering
+		\includegraphics[width=0.45\textwidth]{figures/severalHists.jpg}
+	\label{fig:severalHists}
+	
+		\caption[Several residual image histograms.]{Several residual image histograms and the the best approximation of a normal distribution fitting the data.}
+\end{figure}
 
 \begin{enumerate}
 \item{\textbf{Normal Distribution Likelihood}}
@@ -124,13 +153,13 @@ Many of the residual images have a majority of pixels that are very close zero. 
 
 \item{\textbf{Kurtosis}}
 
-The kurtosis of a real-valued random variable is a measure of its peakedness.  Larger values of kurtosis means more variance is due to less frequent extreme deviations rather than frequent less extreme deviations.  It is defined as $$\gamma_2=\frac{\mu_4}{\sigma^4}$$ where $\mu_4$ is the fourth moment about the mean and $\sigma^4$ is the square of the variance.
+The kurtosis of a real-valued random variable is a measure of its peakedness.  Larger values of kurtosis means more variance is due to less frequent extreme deviations rather than frequent less extreme deviations.  It is defined as $\gamma_2=\frac{\mu_4}{\sigma^4}$ where $\mu_4$ is the fourth moment about the mean and $\sigma^4$ is the square of the variance.
 
 We can use this measure 
 
 \item{\textbf{Skewness}}
 
-The skewness of a random variable is a measure of asymmetry.  Higher skewness values mean deviations on one side of the mean do not have corresponding deviations on the other side.  It is defined as $$\gamma_1=\frac{\mu_3}{\sigma^3}$$ where $\mu_3$ is the third moment about the mean and $\sigma^3$ is the cube of the standard deviation.
+The skewness of a random variable is a measure of asymmetry.  Higher skewness values mean deviations on one side of the mean do not have corresponding deviations on the other side.  It is defined as $\gamma_1=\frac{\mu_3}{\sigma^3}$ where $\mu_3$ is the third moment about the mean and $\sigma^3$ is the cube of the standard deviation.
 
 This measure can be used
 
