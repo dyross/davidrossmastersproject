@@ -26,7 +26,7 @@ Fortunately, it is fairly easy to learn which regions of an image are most affec
 This simple mask allows PCA to focus on more interesting changes in the image, and most of the results that follow use a simple mask to ignore the sky regions of the images.  By setting all pixels in the sky to 0, we can effectively remove this difficulty.
 
 
-\begin{figure}
+\begin{figure}[ht]
 	\centering
 	\subfigure[]{
 		\includegraphics[width=0.45\textwidth]{figures/2skyPCA.jpg}
@@ -48,7 +48,7 @@ The x and y derivatives of an image are defined as $I_x(x,y) = I(x,y)-I(x-1,y)$ 
 The gradient magnitude image highlights edges in an image, as they are image locations where pixel values differ greatly from their neighbors.  By performing PCA on the gradient magnitude images, we tend to ignore the potentially noisy surfaces of objects, and instead focus on the locations of the objects.  \ref{fig:carsNoGradient} and \ref{fig:carsGradient} show the edges of an interesting webcam image highlighted in a gradient magnitude image.
 
 
-\begin{figure}
+\begin{figure}[ht]
 	\centering
 	\subfigure[]{
 		\includegraphics[width=0.45\textwidth]{figures/194cars.jpg}
@@ -129,7 +129,7 @@ For each image in a scene, PCA gives a vector of coefficients that correspond to
 
 Given an image and a PCA basis, we can project the image onto the basis and see how well we can reconstruct the image.
 
-\begin{figure}%[htb]
+\begin{figure}
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualReconstruction.jpg}
 	\label{fig:residualReconstruction}
@@ -139,7 +139,7 @@ Given an image and a PCA basis, we can project the image onto the basis and see 
 
 [figure of subplot with image, reconstruction, and residual]
 
-\begin{figure}
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualSSDmontage.jpg}
 	\label{fig:residualSSDmontage}
