@@ -1,8 +1,4 @@
-\contentsline {chapter}{Abstract}{ii}
-\contentsline {chapter}{Acknowledgments}{iii}
-\contentsline {chapter}{List of Tables}{v}
-\contentsline {chapter}{List of Figures}{vi}
-\contentsline {chapter}{Preface}{vii}
+\contentsline {chapter}{List of Figures}{ii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Principal Component Analysis}{2}
 \contentsline {chapter}{\numberline {3}Visualization Tools}{3}
@@ -18,8 +14,6 @@
 \contentsline {subsection}{\numberline {3.3.1}PCA coefficient vector magnitude}{9}
 \contentsline {subsection}{\numberline {3.3.2}Residual Error}{9}
 \contentsline {subsection}{\numberline {3.3.3}Variance Model}{9}
-\contentsline {subsection}{\numberline {3.3.4}Probabilistic}{11}
-\contentsline {chapter}{\numberline {4}Discussion}{18}
-\contentsline {section}{\numberline {4.1}Future Work}{18}
-\contentsline {chapter}{References}{19}
-\contentsline {chapter}{Vita}{20}
+\contentsline {subsection}{\numberline {3.3.4}Probabilistic}{14}
+\contentsline {chapter}{\numberline {4}Discussion}{17}
+\contentsline {section}{\numberline {4.1}Future Work}{17}
