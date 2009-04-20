@@ -210,9 +210,11 @@ underlying probability density function.  If image deviations are due mostly to 
 \begin{enumerate}
 \item{\textbf{Gaussian Likelihood}}
 
-The most obvious way to do this is to treat each residual image pixel as a sample from a normal distribution.  We can easily estimate the mean and variance of this PDF and then 
+The most obvious way to do this is to treat each residual image pixel as a sample from a normal distribution.  We can easily estimate the mean and variance of this PDF and then, for each residual value, use the normal distribution equation 
 
 $$f(x|\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}$$
+
+ 
 
 
 \item{\textbf{Laplacian Likelihood}}
