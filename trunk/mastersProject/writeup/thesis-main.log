@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  19 APR 2009 21:47
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  19 APR 2009 23:00
 entering extended mode
 **C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
 ersProject/writeup/thesis-main.tex
@@ -128,8 +128,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
-(thesis-main.aux (thesis-front.aux) (thesis-chapter1.aux) (thesis-chapter2.aux)
-(thesis-chapter3.aux) (thesis-chapter4.aux) (thesis-back.aux))
+(thesis-main.aux (thesis-chapter3.aux) (thesis-back.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
@@ -159,78 +158,40 @@ LaTeX Info: Redefining \dots on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (thesis-front.tex [0
+ (thesis-chapter3.tex
+Chapter 1.
+[1
+
 
 
 
 {C:/Documents and Settings/All Users/Application Data/MiKTeX/2.7/pdftex/config/
-pdftex.map}] [2] [3
-
-] (thesis-main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
-)
-\tf@toc=\write3
- [4
-
-]
-(thesis-main.lot)
-\tf@lot=\write4
- [5
-
-] (thesis-main.lof)
-\tf@lof=\write5
- [6
-
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 36.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
-) [7
-
-] (thesis-chapter1.tex
-Chapter 1.
-) [1
-
-
-
-
-] (thesis-chapter2.tex
-Chapter 2.
-) [2
-
-
-
-] (thesis-chapter3.tex
-Chapter 3.
-[3
-
-
-
-] <figures/2skyPCA.jpg, id=40, 562.1pt x 421.575pt>
+pdftex.map}] <figures/2skyPCA.jpg, id=7, 562.1pt x 421.575pt>
 File: figures/2skyPCA.jpg Graphic file (type jpg)
 
-<use figures/2skyPCA.jpg> <figures/2skyMask.jpg, id=41, 562.1pt x 421.575pt>
+<use figures/2skyPCA.jpg> <figures/2skyMask.jpg, id=8, 562.1pt x 421.575pt>
 File: figures/2skyMask.jpg Graphic file (type jpg)
 
-<use figures/2skyMask.jpg> [4 <figures/2skyPCA.jpg> <figures/2skyMask.jpg>]
-<figures/194cars.jpg, id=45, 562.1pt x 421.575pt>
+<use figures/2skyMask.jpg> [2 <figures/2skyPCA.jpg> <figures/2skyMask.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 46.
+
+<figures/194cars.jpg, id=13, 562.1pt x 421.575pt>
 File: figures/194cars.jpg Graphic file (type jpg)
  <use figures/194cars.jpg>
-<figures/194carsGradient.jpg, id=46, 562.1pt x 421.575pt>
+<figures/194carsGradient.jpg, id=14, 562.1pt x 421.575pt>
 File: figures/194carsGradient.jpg Graphic file (type jpg)
 
 <use figures/194carsGradient.jpg>
-<figures/golfMontageNaive.jpg, id=47, 1288.815pt x 739.76375pt>
+<figures/golfMontageNaive.jpg, id=15, 1288.815pt x 739.76375pt>
 File: figures/golfMontageNaive.jpg Graphic file (type jpg)
 
 <use figures/golfMontageNaive.jpg>
-<figures/golfMontageSmart.jpg, id=48, 1288.815pt x 739.76375pt>
+<figures/golfMontageSmart.jpg, id=16, 1288.815pt x 739.76375pt>
 File: figures/golfMontageSmart.jpg Graphic file (type jpg)
 
 <use figures/golfMontageSmart.jpg>
@@ -243,9 +204,9 @@ Overfull \hbox (7.83325pt too wide) in paragraph at lines 73--78
  [] 
  []
 
-[5 <figures/194cars.jpg> <figures/194carsGradient.jpg>] [6] [7 <figures/golfMon
+[3 <figures/194cars.jpg> <figures/194carsGradient.jpg>] [4] [5 <figures/golfMon
 tageNaive.jpg> <figures/golfMontageSmart.jpg>]
-<figures/2dGui.jpg, id=62, 1096.095pt x 470.75874pt>
+<figures/2dGui.jpg, id=31, 1096.095pt x 470.75874pt>
 File: figures/2dGui.jpg Graphic file (type jpg)
  <use figures/2dGui.jpg>
 
@@ -253,28 +214,28 @@ Package caption Warning: \label before \caption on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:2dGui' on page 8 undefined on input line 99.
+LaTeX Warning: Reference `fig:2dGui' on page 6 undefined on input line 99.
 
 
 Package caption Warning: \label before \caption on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:2dGui' on page 8 undefined on input line 99.
+LaTeX Warning: Reference `fig:2dGui' on page 6 undefined on input line 99.
 
 
 Package caption Warning: \label before \caption on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:2dGui' on page 8 undefined on input line 102.
+LaTeX Warning: Reference `fig:2dGui' on page 6 undefined on input line 102.
 
-[8 <figures/2dGui.jpg>]
-<figures/vectorMagnitudeMean.jpg, id=66, 562.1pt x 421.575pt>
+[6 <figures/2dGui.jpg>]
+<figures/vectorMagnitudeMean.jpg, id=35, 562.1pt x 421.575pt>
 File: figures/vectorMagnitudeMean.jpg Graphic file (type jpg)
 
 <use figures/vectorMagnitudeMean.jpg>
-<figures/vectorMagnitudeMontage.jpg, id=67, 1224.575pt x 739.76375pt>
+<figures/vectorMagnitudeMontage.jpg, id=36, 1224.575pt x 739.76375pt>
 File: figures/vectorMagnitudeMontage.jpg Graphic file (type jpg)
 
 <use figures/vectorMagnitudeMontage.jpg>
@@ -285,7 +246,7 @@ Overfull \hbox (7.83325pt too wide) in paragraph at lines 118--123
 
 LaTeX Warning: Float too large for page by 0.1872pt on input line 124.
 
-<figures/residualReconstruction.jpg, id=68, 1277.77374pt x 384.43625pt>
+<figures/residualReconstruction.jpg, id=37, 1277.77374pt x 384.43625pt>
 File: figures/residualReconstruction.jpg Graphic file (type jpg)
 
 <use figures/residualReconstruction.jpg>
@@ -294,16 +255,16 @@ Package caption Warning: \label before \caption on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:2dGui' on page 9 undefined on input line 137.
+LaTeX Warning: Reference `fig:2dGui' on page 7 undefined on input line 137.
 
 
 Package caption Warning: \label before \caption on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:2dGui' on page 9 undefined on input line 137.
+LaTeX Warning: Reference `fig:2dGui' on page 7 undefined on input line 137.
 
-<figures/residualSSDmontage.jpg, id=69, 1128.215pt x 809.0225pt>
+<figures/residualSSDmontage.jpg, id=38, 1128.215pt x 809.0225pt>
 File: figures/residualSSDmontage.jpg Graphic file (type jpg)
 
 <use figures/residualSSDmontage.jpg>
@@ -312,7 +273,7 @@ Package caption Warning: \label before \caption on input line 145.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:residualSSDmontage' on page 9 undefined on input 
+LaTeX Warning: Reference `fig:residualSSDmontage' on page 7 undefined on input 
 line 147.
 
 
@@ -320,15 +281,15 @@ Package caption Warning: \label before \caption on input line 145.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:residualSSDmontage' on page 9 undefined on input 
+LaTeX Warning: Reference `fig:residualSSDmontage' on page 7 undefined on input 
 line 147.
 
-[9] [10 <figures/vectorMagnitudeMean.jpg> <figures/vectorMagnitudeMontage.jpg>]
-<figures/residualZScoreMontage.jpg, id=76, 1128.215pt x 809.0225pt>
+[7] [8 <figures/vectorMagnitudeMean.jpg> <figures/vectorMagnitudeMontage.jpg>]
+<figures/residualZScoreMontage.jpg, id=46, 1128.215pt x 809.0225pt>
 File: figures/residualZScoreMontage.jpg Graphic file (type jpg)
 
 <use figures/residualZScoreMontage.jpg>
-<figures/severalVarianceImages.jpg, id=77, 969.6225pt x 761.84625pt>
+<figures/severalVarianceImages.jpg, id=47, 969.6225pt x 761.84625pt>
 File: figures/severalVarianceImages.jpg Graphic file (type jpg)
 
 <use figures/severalVarianceImages.jpg>
@@ -337,82 +298,75 @@ Package caption Warning: \label before \caption on input line 170.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:severalVarianceImages' on page 11 undefined on in
-put line 172.
+LaTeX Warning: Reference `fig:severalVarianceImages' on page 9 undefined on inp
+ut line 172.
 
 
 Package caption Warning: \label before \caption on input line 170.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:severalVarianceImages' on page 11 undefined on in
-put line 172.
+LaTeX Warning: Reference `fig:severalVarianceImages' on page 9 undefined on inp
+ut line 172.
 
 
 Package caption Warning: \label before \caption on input line 187.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:severalHists' on page 11 undefined on input line 
-180.
+LaTeX Warning: Reference `fig:severalHists' on page 9 undefined on input line 1
+80.
 
-<figures/severalHists2.jpg, id=78, 1290.8225pt x 380.42125pt>
+<figures/severalHists2.jpg, id=48, 1290.8225pt x 380.42125pt>
 File: figures/severalHists2.jpg Graphic file (type jpg)
 
-<use figures/severalHists2.jpg> [11 <figures/residualReconstruction.jpg>]
-[12 <figures/residualSSDmontage.jpg>] [13 <figures/residualZScoreMontage.jpg>]
-[14 <figures/severalVarianceImages.jpg> <figures/severalHists2.jpg>]) [15]
-(thesis-chapter4.tex
-Chapter 4.
-) [16
+<use figures/severalHists2.jpg>
+<figures/leastNormal.jpg, id=49, 1107.13625pt x 857.2025pt>
+File: figures/leastNormal.jpg Graphic file (type jpg)
 
+<use figures/leastNormal.jpg>
+<figures/leastLaplacian.jpg, id=50, 1107.13625pt x 857.2025pt>
+File: figures/leastLaplacian.jpg Graphic file (type jpg)
 
+<use figures/leastLaplacian.jpg>
+<figures/highestKurtosis.jpg, id=51, 1107.13625pt x 857.2025pt>
+File: figures/highestKurtosis.jpg Graphic file (type jpg)
 
-] (thesis-back.tex (thesis-main.bbl) [17
+<use figures/highestKurtosis.jpg>
+<figures/highestSkewness.jpg, id=52, 1107.13625pt x 857.2025pt>
+File: figures/highestSkewness.jpg Graphic file (type jpg)
 
-
-
-] (vita.tex
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[] \OT1/cmr/bx/n/12 Pro-fes-sional
- []
-
-) [18
-
-] [18
-
-]) (thesis-main.aux (thesis-front.aux) (thesis-chapter1.aux)
-(thesis-chapter2.aux) (thesis-chapter3.aux) (thesis-chapter4.aux)
-(thesis-back.aux))
+<use figures/highestSkewness.jpg> [9 <figures/residualReconstruction.jpg>]
+[10 <figures/residualSSDmontage.jpg>] [11 <figures/residualZScoreMontage.jpg>]
+[12 <figures/severalVarianceImages.jpg> <figures/severalHists2.jpg>] [13 <figur
+es/leastNormal.jpg> <figures/leastLaplacian.jpg>] [14 <figures/highestKurtosis.
+jpg> <figures/highestSkewness.jpg>]) [15] (thesis-main.aux (thesis-chapter3.aux
+))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2418 strings out of 95340
- 36544 string characters out of 1184155
- 98822 words of memory out of 1500000
- 5548 multiletter control sequences out of 110000
- 10265 words of font info for 36 fonts, out of 1200000 for 2000
+ 2379 strings out of 95340
+ 36312 string characters out of 1184155
+ 97822 words of memory out of 1500000
+ 5556 multiletter control sequences out of 110000
+ 8606 words of font info for 31 fonts, out of 1200000 for 2000
  14 hyphenation exceptions out of 8191
- 36i,8n,38p,1305b,275s stack positions out of 5000i,500n,10000p,200000b,5000s
-<C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx10.pfb><C:/Program Fi
-les/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.7/f
-onts/type1/bluesky/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/blues
-ky/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi6.pfb>
-<C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><C:/Program Files
-/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.7/fonts
-/type1/bluesky/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm
-/cmr6.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr7.pfb><C:/Prog
-ram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
-.7/fonts/type1/bluesky/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/b
-luesky/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy6.
-pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy8.pfb><C:/Program F
-iles/MiKTeX 2.7/fonts/type1/bluesky/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.7/
-fonts/type1/bluesky/cm/cmti8.pfb>
-Output written on thesis-main.pdf (26 pages, 1150017 bytes).
+ 36i,6n,38p,1305b,306s stack positions out of 5000i,500n,10000p,200000b,5000s
+<C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.7/fonts/type1/bluesky/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.7/f
+onts/type1/bluesky/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/blues
+ky/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><
+C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr10.pfb><C:/Program Files/
+MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.7/fonts/
+type1/bluesky/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/c
+mr8.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy6.pfb><C:/Program Files/MiKTeX 
+2.7/fonts/type1/bluesky/cm/cmsy8.pfb>
+Output written on thesis-main.pdf (15 pages, 1817882 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

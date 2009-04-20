@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Residual Error}{9}
 \contentsline {subsection}{\numberline {3.3.3}Variance Model}{9}
 \contentsline {subsection}{\numberline {3.3.4}Probabilistic}{11}
-\contentsline {chapter}{\numberline {4}Discussion}{16}
-\contentsline {section}{\numberline {4.1}Future Work}{16}
-\contentsline {chapter}{References}{17}
-\contentsline {chapter}{Vita}{18}
+\contentsline {chapter}{\numberline {4}Discussion}{18}
+\contentsline {section}{\numberline {4.1}Future Work}{18}
+\contentsline {chapter}{References}{19}
+\contentsline {chapter}{Vita}{20}
