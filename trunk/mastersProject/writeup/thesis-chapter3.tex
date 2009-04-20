@@ -45,7 +45,7 @@ which is a value from 0 to 255.  One way to simplify this space without changing
 
 The x and y derivatives of an image are defined as $I_x(x,y) = I(x,y)-I(x-1,y)$ and $I_y(x,y) = I(x,y)-I(x,y-1)$ where the function $I(x,y)$ describes the intensities of an image's pixels.  Once we have calculated the derivative images, we define the gradient magnitude of an image to be $G(x,y) = I_x(x,y)^2 + I_y(x,y)^2$.
 
-The gradient magnitude image highlights edges in an image, as they are image locations where pixel values differ greatly from their neighbors.  By performing PCA on the gradient magnitude images, we tend to ignore the potentially noisy surfaces of objects, and instead focus on the locations of the objects.  \ref{fig:carsNoGradient} and \ref{fig:carsGradient} show the edges of an interesting webcam image highlighted in a gradient magnitude image.
+The gradient magnitude image highlights edges in an image, as they are image locations where pixel values differ greatly from their neighbors.  By performing PCA on the gradient magnitude images, we tend to ignore the potentially noisy surfaces of objects, and instead focus on the locations of the objects.  Figure \ref{fig:carsNoGradient} and Figure\ref{fig:carsGradient} show the edges of an interesting webcam image highlighted in a gradient magnitude image.
 
 
 \begin{figure}[ht]
@@ -75,12 +75,12 @@ In this section, we present several tools to visualize the webcam scene based on
 		\includegraphics[width=1\textwidth]{figures/golfMontageSmart.jpg}
 	\label{fig:golfMontageSmart}
 	}
-		\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:golfMontageNaive} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:golfMontageSmart} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
+		\caption[Image montage techniques.]{Figure \ref{fig:golfMontageNaive} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:golfMontageSmart} shows a montage of interesting images of the same scene, but attempts to omit similar images.}
 \end{figure}
 
 \subsection{Image Montage}
 
-The simplest way to visualize a webcam scene is to view a montage of several images from that scene.  We can easily sort the images along some dimension, and then show the $n$ images with the highest values in that dimension.  \ref{fig:golfMontageNaive} Is an example montage of several interesting images from a webcam scene.
+The simplest way to visualize a webcam scene is to view a montage of several images from that scene.  We can easily sort the images along some dimension, and then show the $n$ images with the highest values in that dimension.  Figure \ref{fig:golfMontageNaive} Is an example montage of several interesting images from a webcam scene.
 
 \subsection{Intelligent Image Montage}
 
@@ -91,15 +91,15 @@ A simple but effective algorithm for this problem uses the L2 norm in image spac
 \subsection{Two-dimensional Explorer}
 
 
-\begin{figure}
+Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dGui}, displays a a plot of image scores for two different criteria, and displays the image corresponding to a mouseovered datapoint.  Using this GUI, it is possible to see which criterias are related and which are not, as well as makes it easier to learn how the criteria effects the scene. [I don't really know what to say in this section].
+
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1\textwidth]{figures/2dGui.jpg}
 	\label{fig:2dGui}
 	
 		\caption[Exploring 2D image space using a simple GUI.]{Figure \ref{fig:2dGui} shows a webcam scene displayed using the 2D GUI.}
 \end{figure}
-
-Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dGui}, displays a a plot of image scores for two different criteria, and displays the image corresponding to a mouseovered datapoint.  Using this GUI, it is possible to see which criterias are related and which are not, as well as makes it easier to learn how the criteria effects the scene. [I don't really know what to say in this section].
 
 
 \section{Criteria}
@@ -120,10 +120,12 @@ Once webcam scenes are projected onto a PCA basis, there are many different ways
 		\includegraphics[width=1\textwidth]{figures/vectorMagnitudeMontage.jpg}
 	\label{fig:vectorMagnitudeMontage}
 	}
-		\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:vectorMagnitudeMean} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:vectorMagnitudeMontage} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
+		\caption[Criteria: Gradient Magnitude.]{Figure \ref{fig:vectorMagnitudeMean} shows the mean image of an airport webcam scene. Figure \ref{fig:vectorMagnitudeMontage} shows several images found using this technique that are far from the mean.}
 \end{figure}
 
-For each image in a scene, PCA gives a vector of coefficients that correspond to the best linear combination of basis images to reconstruct that image.  From this vector, we can assign each image a score equal to the magnitude of this vector.  For a vector $v = (v_0, v_1, ..., v_n)$, the vector magnitude is $$||v||=\sqrt{\sum_{i=0}^nv_i^2}$$This effectively gives us a measure for how far from the mean image in our basis space each image is.   \ref{fig:vectorMagnitudeMean} shows the mean image of a webcam scene and \ref{fig:vectorMagnitudeMontage} shows several images from that webcam scene that are especially far from the mean.
+For each image in a scene, PCA gives a vector of coefficients that correspond to the best linear combination of basis images to reconstruct that image.  From this vector, we can assign each image a score equal to the magnitude of this vector.  For a vector $v = (v_0, v_1, ..., v_n)$, the vector magnitude is $$||v||=\sqrt{\sum_{i=0}^nv_i^2}$$This effectively gives us a measure for how far from the mean image in our basis space each image is.  Figure \ref{fig:vectorMagnitudeMean} shows the mean image of a webcam scene and Figure \ref{fig:vectorMagnitudeMontage} shows several images from that webcam scene that are especially far from the mean.
+
+
 
 \subsection{Residual Error}
 
@@ -137,9 +139,9 @@ Given an image and a PCA basis, we can project the image onto the basis and see 
 		\caption[Residual Reconstruction.]{Figure \ref{fig:2dGui} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
 \end{figure}
 
-[figure of subplot with image, reconstruction, and residual]
+[Figure of subplot with image, reconstruction, and residual]
 
-\begin{figure}[ht]
+\begin{figure}
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualSSDmontage.jpg}
 	\label{fig:residualSSDmontage}
@@ -152,25 +154,27 @@ Given an image and a PCA basis, we can project the image onto the basis and see 
 
 \subsection{Variance Model}
 
-We can estimate the variance image of a webcam scene as the average of the square of each residual image.
-
-One we have this variance image, we can attempt to isolate independent pixels in a z-score image.  We define our z-score image as $$Z(x,y) = \frac{R(x,y)} { V(x,y)}$$ where $R(x,y)$ is the residual value of the pixel and $V(x,y)$ is the variance value of the pixel.
-
-\begin{figure}
-	\centering
-		\includegraphics[width=1\textwidth]{figures/residualZScoreMontage.jpg}
-	\label{fig:residualZScoreMontage}
-	
-		\caption[Residual SSD Montage.]{shows a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
-\end{figure}
+We can estimate the variance image of a webcam scene as the average of the square of each residual image.  This image gives a good summary as to where most activity occurs in a webcam scene.  Several examples are shown in Figure \ref{fig:severalVarianceImages}.
 
 \begin{figure}
 	\centering
 		\includegraphics[width=1\textwidth]{figures/severalVarianceImages.jpg}
 	\label{fig:severalVarianceImages}
 	
-		\caption[Residual Z-Score Montage.]{Figure \ref{fig:severalVarianceImages} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
+		\caption[Several variance images.]{Figure \ref{fig:severalVarianceImages} shows estimated variance images from several webcam scenes.}
 \end{figure}
+
+One we have this variance image, we can attempt to isolate independent pixels in a z-score image.  We define our z-score image as $$Z(x,y) = \frac{R(x,y)} { V(x,y)}$$ where $R(x,y)$ is the residual value of the pixel and $V(x,y)$ is the variance value of the pixel.  By summing the per pixel z-score for an particular image, we can infer how atypical the residual of that image is.  Figure \ref{fig:residualZScoreMontage} shows several images that contain atypical objects.  Such a tool can be used to quickly highlight unusual behavior in a scene.
+
+\begin{figure}
+	\centering
+		\includegraphics[width=1\textwidth]{figures/residualZScoreMontage.jpg}
+	\label{fig:residualZScoreMontage}
+	
+		\caption[Z-Score Montage.]{Figure \ref{fig:residualZScoreMontage} shows several images from the same scene as \ref{fig:residualSSDmontage}, but with more atypical objects.}
+\end{figure}
+
+
 
 
 
@@ -179,7 +183,6 @@ One we have this variance image, we can attempt to isolate independent pixels in
 We can also try to learn about an image reconstruction by treating its residual image as samples from an 
 underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed, but as shown in \ref{fig:severalHists}, this is not always the case.  We have found that these distributions vary in the same way as webcam scenes, and analyzing them in the right way tells an interesting story.
 
-[For each of these I'm going to explain what they should show, show a couple histograms with high values for them, and some example images]
 
 \begin{figure}
 	\centering
@@ -203,36 +206,20 @@ underlying probability density function.  If image deviations are due mostly to 
 	\label{fig:leastLaplacian}
 	}
 	
-			\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:vectorMagnitudeMean} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:vectorMagnitudeMontage} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
-\end{figure}
-
-
-\begin{figure}
-	\centering
-	\subfigure[]{
-		\includegraphics[width=.6\textwidth]{figures/highestKurtosis.jpg}
-	\label{fig:highestKurtosis}
-	}
-	
-	\subfigure[]{
-		\includegraphics[width=.6\textwidth]{figures/highestSkewness.jpg}
-	\label{fig:highestSkewness}
-	}
-	
-			\caption[Focusing on object edges with gradient magnitude images.]{Figure \ref{fig:vectorMagnitudeMean} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:vectorMagnitudeMontage} shows a montage of interesting images of the same scene, but attempts to omit similar iamges.}
+			\caption[Least Gaussian and Least Laplacian Images.]{Figure \ref{fig:leastNormal} shows a montage of interesting images from an airport scene that were labeled very non-guassian. Figure \ref{fig:leastLaplacian} shows a montage of interesting images from an airport scene that were labeled very non-laplacian.}
 \end{figure}
 
 
 
 \begin{enumerate}
-\item{\textbf{Normal Distribution Likelihood}}
+\item{\textbf{Gaussian Likelihood}}
 
 The most obvious way to do this is to treat each residual image pixel as a sample from a normal distribution.  We can easily estimate the mean and variance of this PDF and then 
 
 $$f(x|\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}$$
 
 
-\item{\textbf{Laplacian Distribution Likelihood}}
+\item{\textbf{Laplacian Likelihood}}
 
 Many of the residual images have a majority of pixels that are very close zero.  This causes the histogram to look very similar to a laplacian distribution.
 
