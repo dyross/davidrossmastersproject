@@ -158,13 +158,21 @@ One we have this variance image, we can attempt to isolate independent pixels in
 
 \begin{figure}
 	\centering
-		\includegraphics[width=1\textwidth]{figures/severalVarianceImages.jpg}
-	\label{fig:servalVarianceImages}
+		\includegraphics[width=1\textwidth]{figures/residualZScoreMontage.jpg}
+	\label{fig:residualZScoreMontage}
 	
-		\caption[Residual SSD Montage.]{Figure \ref{fig:servalVarianceImages} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
+		\caption[Residual SSD Montage.]{shows a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
 \end{figure}
 
-[figure with variance image, residual image, and zScoreImage, highlighting how knowing the variance shows independent areas ]
+\begin{figure}
+	\centering
+		\includegraphics[width=1\textwidth]{figures/severalVarianceImages.jpg}
+	\label{fig:severalVarianceImages}
+	
+		\caption[Residual Z-Score Montage.]{Figure \ref{fig:severalVarianceImages} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
+\end{figure}
+
+
 
 \subsection{Probabilistic}
 
@@ -175,7 +183,7 @@ underlying probability density function.  If image deviations are due mostly to 
 
 \begin{figure}
 	\centering
-		\includegraphics[width=1\textwidth]{figures/severalHists.jpg}
+		\includegraphics[width=1\textwidth]{figures/severalHists2.jpg}
 	\label{fig:severalHists}
 	
 		\caption[Several residual image histograms.]{Several residual image histograms and the the best approximation of a normal distribution fitting the data.}
