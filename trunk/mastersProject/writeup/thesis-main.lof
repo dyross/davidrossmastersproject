@@ -1,9 +1,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Just a Figure\relax }}{3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{14}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{14}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{7}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Exploring 2D image space using a simple GUI.}}{8}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{10}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Residual Reconstruction.}}{11}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Residual SSD Montage.}}{12}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Residual SSD Montage.}}{13}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Residual Z-Score Montage.}}{14}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Several residual image histograms.}}{14}
 \addvspace {10\p@ }
