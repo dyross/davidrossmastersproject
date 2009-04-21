@@ -1,0 +1,79 @@
+Introduction:
+
+  Get statistics of the webcam dataset, especially how many images there
+  are.  
+  
+  Then motivate the need to automatically find images that
+  represent the diversity of a given scene.
+
+  Then introduce the rest of the paper:
+    Have many images.  Need to find interesting variants.
+    But there is much variance in controlled ways, so:
+     use PCA to find and index images by common variation.
+
+    PCA offers tool to approximately reconstruct images, so we look at
+     various ways of characterizing the residual (the part of the image
+     not reconstructed).
+
+PCA:
+  Describe the PCA method.
+
+  Show an example image, and the reconstruction of it (and the
+  corresponding resudual error) with 1,2,3,4,5 principle components.
+
+  Also state that we use incremental PCA, with citation to Matthew Brand
+  Incremental SVD paper.
+
+Section 3: Visualization tools.
+
+  End of first paragraph.  What does PCA setup mean?  Do you mean PCA of
+  different sets of images, or PCA of different parts of an image.
+
+3.1 Setup.
+  Bad section title.
+
+  The data set is too large?  Not really, we are already using
+  incremental PCA (or we could be).  The problem is that we are
+  interested in subtle changes, not the day to night changes or the
+  cloud variation.
+  
+  3.1.2 Can you do a test showing how much the sky variation is (or
+  justifying the need for the sky mask).  e.g. you have a sky mask... Do
+  PCA on the pixels in the sky mask (with, say 10 components) and show
+  the singular values decay very slowly (given the S matrix,
+  plot(diag(S)).  Then do PCA on the pixels on the ground w/ 10
+  components, and plot(diag(S)) and show the components decay more
+  slowly.
+
+  3.1.3 
+   don't know what you are going at with the 76,800 pixels.  
+   ...the reason to study the gradient image is because it ignores changes
+   in overall image intensity, while retaining the scene structure.
+
+   "the x and y derivatives of an image are *approximated as* I_x...
+ 
+3.2 intro.
+
+   I understand there is an ordering problem... you want to introduce
+   visualizations in order to make the next section easier.  But you
+   can't have a forward pointer as your motivation.  Instead, could say:
+ 
+   "In this section we present ways to visualize image data; first as a
+   montage of pre-picked images, then as an interactive GUI that
+   highlights image variations."
+
+3.2.1 Even this naive image montage has some function (sorted by largest
+residual error?).  You might compare to a set of random images (which,
+by chance should be most boring).
+
+3.2.2 Instead of "Intelligent", can it "Well-Separated Set Montage".
+
+3.3 Title: "Characteristics of Image Residuals"
+
+Figure 3.10: Need to have axis labels.
+
+Section 3.3.4: "Statistical Distribution of Residaul Images"
+
+
+Section 4. Future Work: probably save this till the end...  As you find
+things that you don't have time to test, you could put them in here.
