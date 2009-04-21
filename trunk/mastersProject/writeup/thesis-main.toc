@@ -2,14 +2,10 @@
 \contentsline {chapter}{Acknowledgments}{iii}
 \contentsline {chapter}{List of Figures}{v}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Related Work}{1}
-\contentsline {section}{\numberline {1.2}AMOS Dataset}{1}
+\contentsline {section}{\numberline {1.1}AMOS Dataset}{1}
 \contentsline {chapter}{\numberline {2}Principal Component Analysis}{2}
-\contentsline {section}{\numberline {2.1}Background}{2}
-\contentsline {section}{\numberline {2.2}Theory}{2}
-\contentsline {section}{\numberline {2.3}Algorithm}{2}
-\contentsline {subsection}{\numberline {2.3.1}Incremental PCA}{2}
-\contentsline {section}{\numberline {2.4}Applications}{2}
+\contentsline {section}{\numberline {2.1}The PCA method}{2}
+\contentsline {subsection}{\numberline {2.1.1}Incremental PCA}{2}
 \contentsline {chapter}{\numberline {3}Visualization Tools}{3}
 \contentsline {section}{\numberline {3.1}Setup}{3}
 \contentsline {subsection}{\numberline {3.1.1}Temporal Narrowing}{3}

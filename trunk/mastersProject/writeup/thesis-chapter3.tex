@@ -78,7 +78,7 @@ In this section, we present several tools to visualize the webcam scene based on
 
 The simplest way to visualize a webcam scene is to view a montage of several images from that scene.  We can easily sort the images along some dimension, and then show the $n$ images with the highest values in that dimension.  Figure \ref{fig:golfMontageNaive} Is an example montage of several interesting images from a webcam scene.
 
-\subsection{Intelligent Image Montage}
+\subsection{Well-Separated Set Montage}
 
 In several of these montages, we notice that many of the most unusual images are similar to each other.  This presents the problem of finding unusual images that are different from the images we have already chosen.
 
@@ -98,7 +98,7 @@ Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, s
 \end{figure}
 
 
-\section{Criteria}
+\section{Characteristics of Image Residuals}
 
 Once webcam scenes are projected onto a PCA basis, there are many different ways to analyze the results.  In this section, we will present several different criteria for evaluating this appearance model of a scene, the meaning behind each criteria, and results.
 
@@ -174,7 +174,7 @@ One we have this variance image, we can attempt to isolate independent pixels in
 
 
 
-\subsection{Probabilistic}
+\subsection{Statistical Distribution of Residual Images}
 
 We can also try to learn about an image reconstruction by treating its residual image as samples from an 
 underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed, but as shown in \ref{fig:severalHists}, this is not always the case.  We have found that these distributions vary in the same way as webcam scenes, and analyzing them in the right way tells an interesting story.
