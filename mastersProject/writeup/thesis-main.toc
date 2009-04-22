@@ -6,20 +6,20 @@
 \contentsline {chapter}{\numberline {2}Principal Component Analysis}{2}
 \contentsline {section}{\numberline {2.1}The PCA method}{2}
 \contentsline {subsection}{\numberline {2.1.1}Incremental PCA}{2}
-\contentsline {chapter}{\numberline {3}Visualization Tools}{3}
-\contentsline {section}{\numberline {3.1}Setup}{3}
-\contentsline {subsection}{\numberline {3.1.1}Temporal Narrowing}{3}
-\contentsline {subsection}{\numberline {3.1.2}Sky Mask}{4}
-\contentsline {subsection}{\numberline {3.1.3}Gradient Image}{5}
-\contentsline {section}{\numberline {3.2}Visualizations}{6}
-\contentsline {subsection}{\numberline {3.2.1}Image Montage}{6}
-\contentsline {subsection}{\numberline {3.2.2}Intelligent Image Montage}{6}
-\contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{8}
-\contentsline {section}{\numberline {3.3}Criteria}{8}
-\contentsline {subsection}{\numberline {3.3.1}PCA coefficient vector magnitude}{9}
-\contentsline {subsection}{\numberline {3.3.2}Residual Error}{9}
-\contentsline {subsection}{\numberline {3.3.3}Variance Model}{9}
-\contentsline {subsection}{\numberline {3.3.4}Probabilistic}{14}
-\contentsline {chapter}{\numberline {4}Discussion}{17}
-\contentsline {section}{\numberline {4.1}Future Work}{17}
-\contentsline {chapter}{References}{18}
+\contentsline {chapter}{\numberline {3}Visualization Tools}{4}
+\contentsline {section}{\numberline {3.1}Setup}{4}
+\contentsline {subsection}{\numberline {3.1.1}Temporal Narrowing}{4}
+\contentsline {subsection}{\numberline {3.1.2}Sky Mask}{5}
+\contentsline {subsection}{\numberline {3.1.3}Gradient Image}{6}
+\contentsline {section}{\numberline {3.2}Visualizations}{7}
+\contentsline {subsection}{\numberline {3.2.1}Image Montage}{7}
+\contentsline {subsection}{\numberline {3.2.2}Well-Separated Set Montage}{7}
+\contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{9}
+\contentsline {section}{\numberline {3.3}Characteristics of Image Residuals}{9}
+\contentsline {subsection}{\numberline {3.3.1}PCA coefficient vector magnitude}{10}
+\contentsline {subsection}{\numberline {3.3.2}Residual Error}{12}
+\contentsline {subsection}{\numberline {3.3.3}Variance Model}{12}
+\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{15}
+\contentsline {chapter}{\numberline {4}Discussion}{19}
+\contentsline {section}{\numberline {4.1}Future Work}{19}
+\contentsline {chapter}{References}{20}
