@@ -4,7 +4,7 @@
 The main contribution of this project is automatic methods for visualizing how a webcam scene varies, and for understanding the most important variations.  In most natural scenes, we notice changes in lighting, weather, and camera conditions which are interesting, but fail to describe the typical behavior of a scene.  The goal of these tools is to learn these variations and to point out changes independent of them.  PCA is a commonly used tool, and
 captures a linear model of consistent image variations.  By analyzing the results of certain PCA setups, we can obtain important and interesting information.
 
-\section{Setup}
+\section{PCA Input}
 
 The most obvious way to learn about scenes is to take the PCA decomposition of the entire webcam scene.  Unfortunately, our data-set is too large for this to be feasible, so we must limit our inputs.  Instead of taking a random subset of the images, if we can intelligently limit the images we give, we can get better inputs.
 
@@ -107,13 +107,13 @@ Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, s
 \end{figure}
 
 
-\section{Characteristics of Image Residuals}
+\section{Characteristics of Image Reconstructions and Residuals}
 
 Once webcam scenes are projected onto a PCA basis, there are many different ways to analyze the results.  In this section, we will present several different criteria for evaluating this appearance model of a scene, the meaning behind each criteria, and results.
 
 [I don't love the term criteria, but I think it encapsulates the idea of this section...]
 
-\subsection{PCA coefficient vector magnitude}
+\subsection{PCA Basis Coefficient Vector Magnitude}
 
 \begin{figure}
 	\centering
