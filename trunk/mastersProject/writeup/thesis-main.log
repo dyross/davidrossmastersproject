@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  22 APR 2009 21:51
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  22 APR 2009 23:05
 entering extended mode
 **C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
 ersProject/writeup/thesis-main.tex
@@ -187,13 +187,29 @@ Chapter 1.
 <figures/localizationMap.jpg, id=21, 534.99875pt x 287.0725pt>
 File: figures/localizationMap.jpg Graphic file (type jpg)
 
-<use figures/localizationMap.jpg>) [1
+<use figures/localizationMap.jpg>
+
+Package caption Warning: \label before \caption on input line 15.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:localizationMap' on page 1 undefined on input lin
+e 16.
+
+
+Package caption Warning: \label before \caption on input line 15.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:localizationMap' on page 1 undefined on input lin
+e 16.
+
+) [1
 
 
 
 
-] [2 <figures/localizationMap.jpg>]
-(thesis-chapter2.tex
+] [2 <figures/localizationMap.jpg>] (thesis-chapter2.tex
 Chapter 2.
 <figures/pcaIntroFigs.jpg, id=29, 435.87843pt x 512.66531pt>
 File: figures/pcaIntroFigs.jpg Graphic file (type jpg)
@@ -232,7 +248,24 @@ File: figures/2skyMask.jpg Graphic file (type jpg)
 <figures/skyMaskFig.jpg, id=45, 487.06969pt x 322.95656pt>
 File: figures/skyMaskFig.jpg Graphic file (type jpg)
 
-<use figures/skyMaskFig.jpg> [6 <figures/2skyPCA.jpg> <figures/2skyMask.jpg>]
+<use figures/skyMaskFig.jpg>
+
+Package caption Warning: \label before \caption on input line 42.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:skyMaskFig' on page 6 undefined on input line 44.
+
+
+
+Package caption Warning: \label before \caption on input line 42.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:skyMaskFig' on page 6 undefined on input line 44.
+
+
+[6 <figures/2skyPCA.jpg> <figures/2skyMask.jpg>]
 <figures/194cars.jpg, id=49, 331.2375pt x 258.9675pt>
 File: figures/194cars.jpg Graphic file (type jpg)
 
@@ -241,11 +274,11 @@ File: figures/194cars.jpg Graphic file (type jpg)
 File: figures/194carsGradient.jpg Graphic file (type jpg)
 
 <use figures/194carsGradient.jpg> [7 <figures/skyMaskFig.jpg>]
-<figures/golfMontageNaive.jpg, id=55, 684.30656pt x 514.92375pt>
+<figures/golfMontageNaive.jpg, id=56, 684.30656pt x 514.92375pt>
 File: figures/golfMontageNaive.jpg Graphic file (type jpg)
 
 <use figures/golfMontageNaive.jpg>
-<figures/golfMontageSmart.jpg, id=56, 682.80093pt x 513.41812pt>
+<figures/golfMontageSmart.jpg, id=57, 682.80093pt x 513.41812pt>
 File: figures/golfMontageSmart.jpg Graphic file (type jpg)
 
 <use figures/golfMontageSmart.jpg>
@@ -263,9 +296,30 @@ LaTeX Warning: Float too large for page by 130.42326pt on input line 84.
 
 [8 <figures/194cars.jpg> <figures/194carsGradient.jpg>] [9 <figures/golfMontage
 Naive.jpg> <figures/golfMontageSmart.jpg>]
-<figures/2dGui.jpg, id=64, 679.03688pt x 353.06906pt>
+
+Package caption Warning: \label before \caption on input line 104.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:2dGui' on page 10 undefined on input line 101.
+
+<figures/2dGui.jpg, id=65, 679.03688pt x 353.06906pt>
 File: figures/2dGui.jpg Graphic file (type jpg)
  <use figures/2dGui.jpg>
+
+Package caption Warning: \label before \caption on input line 104.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:2dGui' on page 10 undefined on input line 108.
+
+
+Package caption Warning: \label before \caption on input line 104.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:2dGui' on page 10 undefined on input line 108.
+
 [10] <figures/vectorMagnitudeMean.jpg, id=69, 338.76563pt x 274.77657pt>
 File: figures/vectorMagnitudeMean.jpg Graphic file (type jpg)
 
@@ -274,12 +328,12 @@ File: figures/vectorMagnitudeMean.jpg Graphic file (type jpg)
 File: figures/vectorMagnitudeMontage.jpg Graphic file (type jpg)
 
 <use figures/vectorMagnitudeMontage.jpg>
-Overfull \hbox (7.83325pt too wide) in paragraph at lines 123--128
+Overfull \hbox (7.83325pt too wide) in paragraph at lines 125--130
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 101.8348pt on input line 129.
+LaTeX Warning: Float too large for page by 101.8348pt on input line 131.
 
 [11 <figures/2dGui.jpg>] [12 <figures/vectorMagnitudeMean.jpg> <figures/vectorM
 agnitudeMontage.jpg>]
@@ -287,20 +341,124 @@ agnitudeMontage.jpg>]
 File: figures/residualReconstruction.jpg Graphic file (type jpg)
 
 <use figures/residualReconstruction.jpg>
+
+Package caption Warning: \label before \caption on input line 104.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:2dGui' on page 13 undefined on input line 146.
+
+
+Package caption Warning: \label before \caption on input line 104.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:2dGui' on page 13 undefined on input line 146.
+
 <figures/residualSSDmontage.jpg, id=78, 729.47531pt x 543.53062pt>
 File: figures/residualSSDmontage.jpg Graphic file (type jpg)
 
 <use figures/residualSSDmontage.jpg>
+
+Package caption Warning: \label before \caption on input line 152.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualSSDmontage' on page 13 undefined on input
+ line 156.
+
+
+Package caption Warning: \label before \caption on input line 152.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualSSDmontage' on page 13 undefined on input
+ line 156.
+
+
+Package caption Warning: \label before \caption on input line 167.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:severalVarianceImages' on page 13 undefined on in
+put line 164.
+
 <figures/severalVarianceImages.jpg, id=79, 572.89032pt x 496.85625pt>
 File: figures/severalVarianceImages.jpg Graphic file (type jpg)
 
-<use figures/severalVarianceImages.jpg> [13 <figures/residualReconstruction.jpg
->] [14 <figures/residualSSDmontage.jpg>] [15 <figures/severalVarianceImages.jpg
->] <figures/residualZScoreMontage.jpg, id=90, 723.45282pt x 544.28343pt>
+<use figures/severalVarianceImages.jpg>
+
+Package caption Warning: \label before \caption on input line 167.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:severalVarianceImages' on page 13 undefined on in
+put line 171.
+
+
+Package caption Warning: \label before \caption on input line 167.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:severalVarianceImages' on page 13 undefined on in
+put line 171.
+
+[13 <figures/residualReconstruction.jpg>] [14 <figures/residualSSDmontage.jpg>]
+
+Package caption Warning: \label before \caption on input line 177.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualZScoreMontage' on page 15 undefined on in
+put line 174.
+
+[15 <figures/severalVarianceImages.jpg>]
+<figures/residualZScoreMontage.jpg, id=90, 723.45282pt x 544.28343pt>
 File: figures/residualZScoreMontage.jpg Graphic file (type jpg)
 
-<use figures/residualZScoreMontage.jpg> [16 <figures/residualZScoreMontage.jpg>
-] <figures/severalHists2.jpg, id=94, 1049.42062pt x 651.18282pt>
+<use figures/residualZScoreMontage.jpg>
+
+Package caption Warning: \label before \caption on input line 177.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualZScoreMontage' on page 16 undefined on in
+put line 181.
+
+
+Package caption Warning: \label before \caption on input line 152.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualSSDmontage' on page 16 undefined on input
+ line 181.
+
+
+Package caption Warning: \label before \caption on input line 177.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualZScoreMontage' on page 16 undefined on in
+put line 181.
+
+
+Package caption Warning: \label before \caption on input line 152.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:residualSSDmontage' on page 16 undefined on input
+ line 181.
+
+
+Package caption Warning: \label before \caption on input line 195.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:severalHists' on page 16 undefined on input line 
+191.
+
+[16 <figures/residualZScoreMontage.jpg>]
+<figures/severalHists2.jpg, id=94, 1049.42062pt x 651.18282pt>
 File: figures/severalHists2.jpg Graphic file (type jpg)
 
 <use figures/severalHists2.jpg>
@@ -328,6 +486,9 @@ Chapter 4.
 (thesis-front.aux) (thesis-chapter1.aux) (thesis-chapter2.aux)
 (thesis-chapter3.aux) (thesis-chapter4.aux) (thesis-back.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
@@ -338,7 +499,7 @@ Here is how much of TeX's memory you used:
  5569 multiletter control sequences out of 110000
  9913 words of font info for 35 fonts, out of 1200000 for 2000
  14 hyphenation exceptions out of 8191
- 36i,6n,38p,1305b,267s stack positions out of 5000i,500n,10000p,200000b,5000s
+ 36i,6n,38p,1023b,275s stack positions out of 5000i,500n,10000p,200000b,5000s
 <C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.7/f
 onts/type1/bluesky/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/blues
@@ -351,7 +512,7 @@ ram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsl12.pfb><C:/Program Files/MiKTeX
  2.7/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1
 /bluesky/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy8
 .pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmti12.pfb>
-Output written on thesis-main.pdf (27 pages, 1646207 bytes).
+Output written on thesis-main.pdf (27 pages, 1646804 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
