@@ -1,17 +1,17 @@
 \chapter{Conclusion}
 \label{cpt:conclusion}
 
-The original goal of this project was to find clean mathematical tools to catalog the objects found in a particular webcam scene.  Cameras vary in sufficiently difficult ways to make this hard, so we investigated general tools for visualizing these variations.  These automatic visualizations us PCA to learn less interesting variation, and extract the interesting variation from the PCA error.  By passing in the right input to PCA and analyzing the output correctly, we can get good results.
+The original goal of this project was to find clean mathematical tools to catalog the objects found in a particular webcam scene.  Cameras vary in sufficiently difficult ways to make this hard, so we investigated general tools for visualizing these variations.  These automatic visualizations use PCA to learn less interesting variation, and then extract the interesting variation from the PCA error.  By passing in the right input to PCA and analyzing the output correctly, we can get good results.
 
 \section{Future Work}
 
 The tools presented in this project are especially useful in situations where large amounts of data necessitate efficient tools for understanding it.  AMOS is an example of such a large dataset, and some future work could make understanding AMOS even easier.
 
-First, the AMOS website has tools to allow users to understand each scene.  These tools, however, are neither automatic nor efficient, so finding scenes with certain characteristics can be difficult.  To remedy this, the tools from this project can be set to automatically run on each webcam, and display results on each scene's page.
+First, the AMOS website has tools to allow users to understand each scene.  These tools, however, are neither automatic nor efficient, so finding scenes with certain characteristics can be difficult.  To remedy this, the tools from this project can be set to automatically run on each webcam, and display results on each camera's page.
 
-Additionally, although the original goal of the project was not met, these visualization tools give information that would be helpful for the original problem of object extraction.  The tools are effective in separating interesting variation from natural variation, so some work could be done to connect the interesting pixels into objects.
+Additionally, although this goal was not met, these visualization tools give information that would be helpful for the original problem of object extraction.  The tools are effective in separating interesting variation from natural variation, so work could be done to connect the interesting pixels into objects.
 
-Finally, another area that this work could be expanded in is user customizability.  A tool with which a user could specify what type of information he or she is interested in would be very powerful.  Much as in the same way the variance image can affect which variation is labeled more interesting, a user-defined importance map can add a layer of customizability.
+Finally, another area that this work could be expanded in is user customizability.  A tool with which a user could specify what type of information he or she is interested in would be powerful.  Much as in the same way the variance image can affect which variation is labeled more interesting, a user-defined importance map can add a layer of customizability.
 
 
 
