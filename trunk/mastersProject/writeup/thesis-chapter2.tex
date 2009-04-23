@@ -9,15 +9,14 @@ Principal Component Analysis (PCA) is a powerful tool for
 
 Given a matrix $M$, we can use a linear algebra technique called singular value decomposition (SVD) to solve for matrices $U, S, V$ such that $M = U * S * V^T.$  For a given $k$ number of components
 
-
 \begin{figure}[ht]
 	\centering
 	\subfigure[]{
-		\includegraphics[width=1\textwidth]{figures/pcaIntroFigs.jpg}
+		\includegraphics[width=.6\textwidth]{figures/pcaIntroFigs.jpg}
 	\label{fig:pcaIntroFigs}
 	}
 	\subfigure[]{
-		\includegraphics[width=.8\textwidth]{figures/pcaIntroPlot.jpg}
+		\includegraphics[width=.35\textwidth]{figures/pcaIntroPlot.jpg}
 	\label{fig:pcaIntroPlot}
 	}
 		\caption[Learning a sky mask for a webcam scene.]{Figure \ref{fig:pcaIntroFigs} shows the first PCA component of a webcam scene.  By adding or subtracting this component, we control how dark or how light the sky is. Figure \ref{fig:pcaIntroPlot} shows that a simple thresholding of this image effectively segments the sky from the rest of the image.}

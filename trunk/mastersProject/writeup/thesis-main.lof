@@ -1,5 +1,5 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Map}}{2}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Map of known webcam locations from the AMOS dataset.}}{2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{4}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{4}
@@ -19,14 +19,13 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Criteria: Gradient Magnitude.}}{12}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{12}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{12}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Residual Reconstruction.}}{13}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Residual SSD Montage.}}{14}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Several variance images.}}{15}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Z-Score Montage.}}{16}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Several residual image histograms.}}{18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Residual SSD Montage.}}{14}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Several variance images.}}{15}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Z-Score Montage.}}{16}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Several residual image histograms.}}{18}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Least Gaussian and Least Laplacian Images.}}{19}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Least Gaussian and Least Laplacian Images.}}{19}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}
 \addvspace {10\p@ }

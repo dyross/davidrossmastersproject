@@ -73,11 +73,11 @@ In this section, we present several tools to visualize the webcam scene based on
 \begin{figure}
 	\centering
 	\subfigure[]{
-		\includegraphics[width=1\textwidth]{figures/golfMontageNaive.jpg}
+		\includegraphics[width=.8\textwidth]{figures/golfMontageNaive.jpg}
 	\label{fig:golfMontageNaive}
 	}
 	\subfigure[]{
-		\includegraphics[width=1\textwidth]{figures/golfMontageSmart.jpg}
+		\includegraphics[width=.8\textwidth]{figures/golfMontageSmart.jpg}
 	\label{fig:golfMontageSmart}
 	}
 		\caption[Image montage techniques.]{Figure \ref{fig:golfMontageNaive} shows a montage of interesting images from a golf course webcam. Figure \ref{fig:golfMontageSmart} shows a montage of interesting images of the same scene, but attempts to omit similar images.}
@@ -91,9 +91,7 @@ The simplest way to visualize a webcam scene is to view a montage of several ima
 
 In several of these montages, we notice that many of the most unusual images are similar to each other.  This presents the problem of finding unusual images that are different from the images we have already chosen.
 
-A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j).$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$Then we can choose the image that has the highest value of this distance.
-
-In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.  \ref{fig:golfMontageSmart} shows how similar images are omitted by viewing results in this way.
+A simple but effective algorithm for this problem uses the L2 norm in image space.  If we consider an image as a vector of pixel intensities, such as $v = \{v_1, ..., v_m\}$, the L2 norm of two images $v$ and $u$ is $$L2\_norm(v,u) = \sqrt{\sum_{i=1}^m{(v_i-u_i)^2}}$$  Given a large set of unusual images $\{x_1, ..., x_n\}$, we compute a distance matrix $D$ where $D_{i,j} = L2\_norm(x_i, x_j).$  Now we iteratively find unusual images by choosing the image that has the largest distance from all of the images we have chosen so far.  Specifically, for each remaining image calculate its distance to our set of exemplars, and choose the image whose distance is the smallest.  We define the distance of an image $x_0$ to a set of exemplars $\{x_1, ..., x_n\}$ as $$d = \min_i(D(x_0, x_i))$$Then we can choose the image that has the highest value of this distance.  In this way, on each iteration, we pick the image that is least likely to be similar to an image we have already selected.  We have found that a good way to seed this process is choosing the image with the highest unusualness score as our first exemplar.  \ref{fig:golfMontageSmart} shows how similar images are omitted by viewing results in this way.
 
 \subsection{Two-dimensional Explorer}
 
