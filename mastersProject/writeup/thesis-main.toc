@@ -16,10 +16,10 @@
 \contentsline {subsection}{\numberline {3.2.2}Well-Separated Set Montage}{10}
 \contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{10}
 \contentsline {section}{\numberline {3.3}Characteristics of Image Reconstructions and Residuals}{11}
-\contentsline {subsection}{\numberline {3.3.1}PCA Basis Coefficient Vector Magnitude}{13}
+\contentsline {subsection}{\numberline {3.3.1}PCA Basis Coefficient Vector Magnitude}{11}
 \contentsline {subsection}{\numberline {3.3.2}Residual Error}{13}
 \contentsline {subsection}{\numberline {3.3.3}Variance Model}{13}
-\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{17}
+\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{16}
 \contentsline {chapter}{\numberline {4}Conclusion}{21}
 \contentsline {section}{\numberline {4.1}Future Work}{21}
-\contentsline {chapter}{References}{22}
+\contentsline {chapter}{References}{23}
