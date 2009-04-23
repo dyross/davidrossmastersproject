@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  22 APR 2009 23:05
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  23 APR 2009 00:48
 entering extended mode
 **C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
 ersProject/writeup/thesis-main.tex
@@ -297,7 +297,7 @@ LaTeX Warning: Float too large for page by 130.42326pt on input line 84.
 [8 <figures/194cars.jpg> <figures/194carsGradient.jpg>] [9 <figures/golfMontage
 Naive.jpg> <figures/golfMontageSmart.jpg>]
 
-Package caption Warning: \label before \caption on input line 104.
+Package caption Warning: \label before \caption on input line 106.
 See the caption package documentation for explanation.
 
 
@@ -307,14 +307,14 @@ LaTeX Warning: Reference `fig:2dGui' on page 10 undefined on input line 101.
 File: figures/2dGui.jpg Graphic file (type jpg)
  <use figures/2dGui.jpg>
 
-Package caption Warning: \label before \caption on input line 104.
+Package caption Warning: \label before \caption on input line 106.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:2dGui' on page 10 undefined on input line 108.
 
 
-Package caption Warning: \label before \caption on input line 104.
+Package caption Warning: \label before \caption on input line 106.
 See the caption package documentation for explanation.
 
 
@@ -342,14 +342,14 @@ File: figures/residualReconstruction.jpg Graphic file (type jpg)
 
 <use figures/residualReconstruction.jpg>
 
-Package caption Warning: \label before \caption on input line 104.
+Package caption Warning: \label before \caption on input line 106.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:2dGui' on page 13 undefined on input line 146.
 
 
-Package caption Warning: \label before \caption on input line 104.
+Package caption Warning: \label before \caption on input line 106.
 See the caption package documentation for explanation.
 
 
@@ -360,7 +360,7 @@ File: figures/residualSSDmontage.jpg Graphic file (type jpg)
 
 <use figures/residualSSDmontage.jpg>
 
-Package caption Warning: \label before \caption on input line 152.
+Package caption Warning: \label before \caption on input line 154.
 See the caption package documentation for explanation.
 
 
@@ -368,7 +368,7 @@ LaTeX Warning: Reference `fig:residualSSDmontage' on page 13 undefined on input
  line 156.
 
 
-Package caption Warning: \label before \caption on input line 152.
+Package caption Warning: \label before \caption on input line 154.
 See the caption package documentation for explanation.
 
 
@@ -376,7 +376,7 @@ LaTeX Warning: Reference `fig:residualSSDmontage' on page 13 undefined on input
  line 156.
 
 
-Package caption Warning: \label before \caption on input line 167.
+Package caption Warning: \label before \caption on input line 169.
 See the caption package documentation for explanation.
 
 
@@ -388,7 +388,7 @@ File: figures/severalVarianceImages.jpg Graphic file (type jpg)
 
 <use figures/severalVarianceImages.jpg>
 
-Package caption Warning: \label before \caption on input line 167.
+Package caption Warning: \label before \caption on input line 169.
 See the caption package documentation for explanation.
 
 
@@ -396,7 +396,7 @@ LaTeX Warning: Reference `fig:severalVarianceImages' on page 13 undefined on in
 put line 171.
 
 
-Package caption Warning: \label before \caption on input line 167.
+Package caption Warning: \label before \caption on input line 169.
 See the caption package documentation for explanation.
 
 
@@ -405,7 +405,7 @@ put line 171.
 
 [13 <figures/residualReconstruction.jpg>] [14 <figures/residualSSDmontage.jpg>]
 
-Package caption Warning: \label before \caption on input line 177.
+Package caption Warning: \label before \caption on input line 179.
 See the caption package documentation for explanation.
 
 
@@ -418,7 +418,7 @@ File: figures/residualZScoreMontage.jpg Graphic file (type jpg)
 
 <use figures/residualZScoreMontage.jpg>
 
-Package caption Warning: \label before \caption on input line 177.
+Package caption Warning: \label before \caption on input line 179.
 See the caption package documentation for explanation.
 
 
@@ -426,7 +426,7 @@ LaTeX Warning: Reference `fig:residualZScoreMontage' on page 16 undefined on in
 put line 181.
 
 
-Package caption Warning: \label before \caption on input line 152.
+Package caption Warning: \label before \caption on input line 154.
 See the caption package documentation for explanation.
 
 
@@ -434,7 +434,7 @@ LaTeX Warning: Reference `fig:residualSSDmontage' on page 16 undefined on input
  line 181.
 
 
-Package caption Warning: \label before \caption on input line 177.
+Package caption Warning: \label before \caption on input line 179.
 See the caption package documentation for explanation.
 
 
@@ -442,45 +442,45 @@ LaTeX Warning: Reference `fig:residualZScoreMontage' on page 16 undefined on in
 put line 181.
 
 
-Package caption Warning: \label before \caption on input line 152.
+Package caption Warning: \label before \caption on input line 154.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:residualSSDmontage' on page 16 undefined on input
  line 181.
-
-
-Package caption Warning: \label before \caption on input line 195.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:severalHists' on page 16 undefined on input line 
-191.
 
 [16 <figures/residualZScoreMontage.jpg>]
 <figures/severalHists2.jpg, id=94, 1049.42062pt x 651.18282pt>
 File: figures/severalHists2.jpg Graphic file (type jpg)
 
 <use figures/severalHists2.jpg>
-<figures/leastNormal.jpg, id=95, 709.14937pt x 578.91281pt>
+<figures/severalHistsReconstruction.jpg, id=95, 691.58376pt x 839.135pt>
+File: figures/severalHistsReconstruction.jpg Graphic file (type jpg)
+
+<use figures/severalHistsReconstruction.jpg>
+
+LaTeX Warning: Float too large for page by 25.20999pt on input line 207.
+
+<figures/leastNormal.jpg, id=96, 709.14937pt x 578.91281pt>
 File: figures/leastNormal.jpg Graphic file (type jpg)
 
 <use figures/leastNormal.jpg>
-<figures/leastLaplacian.jpg, id=96, 707.64375pt x 581.92406pt>
+<figures/leastLaplacian.jpg, id=97, 707.64375pt x 581.92406pt>
 File: figures/leastLaplacian.jpg Graphic file (type jpg)
 
-<use figures/leastLaplacian.jpg> [17 <figures/severalHists2.jpg>] [18 <figures/
-leastNormal.jpg> <figures/leastLaplacian.jpg>]) [19] (thesis-chapter4.tex
+<use figures/leastLaplacian.jpg> [17] [18 <figures/severalHists2.jpg> <figures/
+severalHistsReconstruction.jpg>] [19 <figures/leastNormal.jpg> <figures/leastLa
+placian.jpg>]) [20] (thesis-chapter4.tex
 Chapter 4.
-) [20
+) [21
 
 
 
-] (thesis-back.tex (thesis-main.bbl) [21
+] (thesis-back.tex (thesis-main.bbl) [22
 
 
 
-] [21
+] [22
 
 ]) (thesis-main.aux
 (thesis-front.aux) (thesis-chapter1.aux) (thesis-chapter2.aux)
@@ -488,15 +488,12 @@ Chapter 4.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2438 strings out of 95340
- 37368 string characters out of 1184155
+ 2446 strings out of 95340
+ 37659 string characters out of 1184155
  96822 words of memory out of 1500000
- 5569 multiletter control sequences out of 110000
+ 5576 multiletter control sequences out of 110000
  9913 words of font info for 35 fonts, out of 1200000 for 2000
  14 hyphenation exceptions out of 8191
  36i,6n,38p,1023b,275s stack positions out of 5000i,500n,10000p,200000b,5000s
@@ -512,9 +509,9 @@ ram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsl12.pfb><C:/Program Files/MiKTeX
  2.7/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1
 /bluesky/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy8
 .pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmti12.pfb>
-Output written on thesis-main.pdf (27 pages, 1646804 bytes).
+Output written on thesis-main.pdf (28 pages, 1768011 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
