@@ -138,14 +138,6 @@ For each image in a scene, PCA gives a vector of coefficients that correspond to
 
 Given an image and a PCA basis, we can project the image onto the basis and see how well we can reconstruct the image.
 
-\begin{figure}
-	\centering
-		\includegraphics[width=1\textwidth]{figures/residualReconstruction.jpg}
-	\label{fig:residualReconstruction}
-	
-		\caption[Residual Reconstruction.]{Figure \ref{fig:2dGui} show a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.}
-\end{figure}
-
 [Figure of subplot with image, reconstruction, and residual]
 
 \begin{figure}
@@ -193,10 +185,17 @@ underlying probability density function.  If image deviations are due mostly to 
 
 \begin{figure}
 	\centering
-		\includegraphics[width=1\textwidth]{figures/severalHists2.jpg}
+	\subfigure[]{
+		\includegraphics[width=.7\textwidth]{figures/severalHists2.jpg}
 	\label{fig:severalHists}
+	}
 	
-		\caption[Several residual image histograms.]{Several residual image histograms and the the best approximation of a normal distribution fitting the data.}
+	\subfigure[]{
+		\includegraphics[width=.7\textwidth]{figures/severalHistsReconstruction.jpg}
+	\label{fig:severalHistsReconstruction}
+	}
+	
+		\caption[Several residual image histograms.]{Figure \ref{fig:severalHists} shows several residual image histograms and the the best approximation of a normal distribution fitting the data.  Figure \ref{fig:severalHistsReconstruction} does not.}
 \end{figure}
 
 

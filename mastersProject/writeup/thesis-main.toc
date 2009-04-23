@@ -20,6 +20,6 @@
 \contentsline {subsection}{\numberline {3.3.2}Residual Error}{13}
 \contentsline {subsection}{\numberline {3.3.3}Variance Model}{15}
 \contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{16}
-\contentsline {chapter}{\numberline {4}Discussion}{20}
-\contentsline {section}{\numberline {4.1}Future Work}{20}
-\contentsline {chapter}{References}{21}
+\contentsline {chapter}{\numberline {4}Discussion}{21}
+\contentsline {section}{\numberline {4.1}Future Work}{21}
+\contentsline {chapter}{References}{22}
