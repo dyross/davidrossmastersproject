@@ -1,30 +1,30 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Map}}{1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Map}}{2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{3}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{3}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{5}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sky Mask stuff.}}{6}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{7}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Image montage techniques.}}{8}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sky Mask stuff.}}{7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{8}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{8}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{8}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Exploring 2D image space using a simple GUI.}}{10}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Criteria: Gradient Magnitude.}}{11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{11}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Residual Reconstruction.}}{12}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Residual SSD Montage.}}{13}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Several variance images.}}{14}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Z-Score Montage.}}{15}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Several residual image histograms.}}{16}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Least Gaussian and Least Laplacian Images.}}{17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{17}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Image montage techniques.}}{9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Exploring 2D image space using a simple GUI.}}{11}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Criteria: Gradient Magnitude.}}{12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{12}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Residual Reconstruction.}}{13}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Residual SSD Montage.}}{14}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Several variance images.}}{15}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Z-Score Montage.}}{16}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Several residual image histograms.}}{17}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Least Gaussian and Least Laplacian Images.}}{18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}
 \addvspace {10\p@ }

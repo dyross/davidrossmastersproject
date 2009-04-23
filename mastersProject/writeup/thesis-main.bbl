@@ -1,7 +1,7 @@
 \begin{thebibliography}{1}
 
 \bibitem{Brand02incrementalsingular}
-Matthew Brand and Matthew Brand.
+Matthew Brand.
 \newblock Incremental singular value decomposition of uncertain data with
   missing values.
 \newblock In {\em In ECCV}, pages 707--720, 2002.
