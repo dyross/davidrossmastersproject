@@ -19,9 +19,10 @@ and other sky-based variation.  The variance in the sky dominates the PCA recons
 \begin{figure}[t]
 	\centering
 		\includegraphics[width=.7\textwidth]{figures/skyMaskFig.jpg}
-	\label{fig:skyMaskFig}
 	
 		\caption[Singular values of scenes with and without the sky.]{The plot shows the singular value, or importance, or each of the ten basis vectors for PCA on a scene with both the sky and ground, with the ground only, and with the sky only.  Since the latter two's singular values do not at up to the former's, we can conclude that looking at the ground only captures more information about the ground than looking at both concurrently.}
+		
+	\label{fig:skyMaskFig}
 \end{figure}
 
 Fortunately, it is fairly easy to learn which regions of an image should be labeled as sky.  A side effect of the rising and setting of the sun is that the first principal component of most scenes - looking at all images, not just daytime images - is the sky, as shown in \ref{fig:2skyPCA}.  By thresholding the values of this vector, we can effectively segment the sky from the rest of the image, as shown in \ref{fig:2skyMask}.
@@ -44,14 +45,14 @@ This simple mask allows PCA to focus on more interesting changes in the image, a
 		
 \subsection{Gradient Image}
 
-\begin{figure}[h]
+\begin{figure}[htp]
 	\centering
 	\subfigure[]{
-		\includegraphics[width=0.8\textwidth]{figures/194cars.jpg}
+		\includegraphics[width=0.45\textwidth]{figures/194cars.jpg}
 	\label{fig:carsNoGradient}
 	}
 	\subfigure[]{
-		\includegraphics[width=0.8\textwidth]{figures/194carsGradient.jpg}
+		\includegraphics[width=0.45\textwidth]{figures/194carsGradient.jpg}
 	\label{fig:carsGradient}
 	}
 		\caption[Highlighting object edges with gradient magnitude images.]{Figure \ref{fig:carsNoGradient} shows a grayscale webcam image. Figure \ref{fig:carsGradient} shows its gradient magnitude image.  Notice the noise is mostly removed and the edges of the vehicles and building are highlighted.}
@@ -70,7 +71,7 @@ In practice, taking PCA of the gradient magnitude image does not add much to our
 
 In this section, we present several tools to visualize the webcam scene once we have evaluated the PCA error.
 
-\begin{figure}[t]
+\begin{figure}[p]
 	\centering
 	\subfigure[]{
 		\includegraphics[width=.8\textwidth]{figures/golfMontageNaive.jpg}
@@ -98,9 +99,10 @@ A simple but effective algorithm for this problem uses the L2 norm in image spac
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=1\textwidth]{figures/2dGui.jpg}
-	\label{fig:2dGui}
 	
-		\caption[Exploring 2D image space using a simple GUI.]{Figure \ref{fig:2dGui} shows a webcam scene displayed using the 2D GUI.}		
+		\caption[Exploring 2D image space using a simple GUI.]{This figure shows a webcam scene displayed using the 2D GUI.}	
+		
+	\label{fig:2dGui}	
 \end{figure}
 
 Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, shown in \ref{fig:2dGui}, displays a a plot of image scores for two different criteria, and displays the image corresponding to the highlighted data point.  Using this GUI, it is possible to see which evaluations are related and which are not, and makes it easier to learn how the evaluations appear in image space.
@@ -115,11 +117,11 @@ Once webcam scenes are projected onto a PCA basis, there are many different ways
 \begin{figure}
 	\centering
 	\subfigure[]{
-		\includegraphics[width=.8\textwidth]{figures/vectorMagnitudeMean.jpg}
+		\includegraphics[width=.7\textwidth]{figures/vectorMagnitudeMean.jpg}
 	\label{fig:vectorMagnitudeMean}
 	}
 	\subfigure[]{
-		\includegraphics[width=.8\textwidth]{figures/vectorMagnitudeMontage.jpg}
+		\includegraphics[width=.7\textwidth]{figures/vectorMagnitudeMontage.jpg}
 	\label{fig:vectorMagnitudeMontage}
 	}
 		\caption[PCA Basis Coefficient Vector Magnitude.]{Figure \ref{fig:vectorMagnitudeMean} shows the mean image of an airport scene. Figure \ref{fig:vectorMagnitudeMontage} shows several images found using this technique that are far from the mean.}
@@ -131,20 +133,22 @@ For each image in a scene, PCA gives a vector of coefficients that correspond to
 
 Given an image and a PCA basis, we can project the image onto the basis and see how well we this reconstructs the image by analyzing the residual image, as shown in Figure \ref{fig:residualReconstruction}.
 
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualReconstruction.jpg}
-	\label{fig:residualReconstruction}
 	
 		\caption[The reconstruction and residual of an image.]{This figure shows a webcam scene image, the reconstruction of that image from a PCA basis, and the residual image.  Notice how the residual image contains most of the foreground objects.}
+		
+	\label{fig:residualReconstruction}
 \end{figure}
 
 \begin{figure}
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualSSDmontage.jpg}
-	\label{fig:residualSSDmontage}
+	
 	
 		\caption[Sum Squared Residual Montage.]{This figure shows a the most interesting images from a golf course scene sorted by the sum of the squared residual values.}
+		\label{fig:residualSSDmontage}
 \end{figure}
 
 If we sort evaluate our images based on the sum of the squared residual values of each pixel, we get a good measure for how much variation not captured by PCA, as shown in Figure \ref{fig:residualSSDMontage}.  Whereas the PCA coefficient vector magnitude evaluation gives images that are different from the mean image, this evaluation captures more of the interesting variation that we are looking for.
@@ -157,9 +161,10 @@ We can estimate the variance image of a webcam scene as the average of the squar
 \begin{figure}
 	\centering
 		\includegraphics[width=1\textwidth]{figures/severalVarianceImages.jpg}
-	\label{fig:severalVarianceImages}
+	
 	
 		\caption[Several variance images.]{This figure shows estimated variance images from several webcam scenes.}
+		\label{fig:severalVarianceImages}
 \end{figure}
 
 One we have this variance image, we can attempt to isolate independent pixels in a z-score image.  We define our z-score image as $$Z(x,y) = \frac{R(x,y)} { V(x,y)}$$ where $R(x,y)$ is the residual value of the pixel and $V(x,y)$ is the variance value of the pixel.  By summing the per pixel z-score for an particular image, we can infer how atypical the residual of that image is.  Figure \ref{fig:residualZScoreMontage} shows several images that contain atypical objects.  Such a tool can be used to quickly highlight unusual behavior in a scene, such as unusual shots on a golf course or security breaches in a bank scene.
@@ -167,9 +172,10 @@ One we have this variance image, we can attempt to isolate independent pixels in
 \begin{figure}
 	\centering
 		\includegraphics[width=1\textwidth]{figures/residualZScoreMontage.jpg}
-	\label{fig:residualZScoreMontage}
+	
 	
 		\caption[Z-Score Montage.]{Figure \ref{fig:residualZScoreMontage} shows several images from the same scene as \ref{fig:residualSSDmontage}, but sorted by the sum of the Z-Score values.  The objects in these images are in more unlikely positions as those in \ref{fig:residualSSDMontage}.}
+		\label{fig:residualZScoreMontage}
 \end{figure}
 
 
@@ -178,25 +184,26 @@ One we have this variance image, we can attempt to isolate independent pixels in
 
 \subsection{Statistical Distribution of Residual Images}
 
-We can also try to learn about an image reconstruction by treating its residual image as samples from an 
-underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed, but as shown in Figure \ref{fig:severalHists}, this is not always the case.  We have found that these distributions vary in the same way as webcam scenes, and analyzing them in the right way tells an interesting story.
 
 
-\begin{figure}
+\begin{figure}[htp]
 	\centering
 	\subfigure[]{
-		\includegraphics[width=.7\textwidth]{figures/severalHists2.jpg}
+		\includegraphics[width=.6\textwidth]{figures/severalHists2.jpg}
 	\label{fig:severalHistsPlot}
 	}
 	
 	\subfigure[]{
-		\includegraphics[width=.7\textwidth]{figures/severalHistsReconstruction.jpg}
+		\includegraphics[width=.6\textwidth]{figures/severalHistsReconstruction.jpg}
 	\label{fig:severalHistsReconstruction}
 	}
 	
 		\caption[Several residual image histograms.]{Figure \ref{fig:severalHists} shows several residual image histograms and the the best approximation of a normal distribution fitting the data.  Figure \ref{fig:severalHistsReconstruction} shows the image corresponding to each histogram and the corresponding reconstructed images and residual images.}
-		label{fig:severalHists}
+		\label{fig:severalHists}
 \end{figure}
+
+We can also try to learn about an image reconstruction by treating its residual image as samples from an 
+underlying probability density function.  If image deviations are due mostly to noise, we predict that these deviations will be normally distributed, but as shown in Figure \ref{fig:severalHists}, this is not always the case.  We have found that these distributions vary in the same way as webcam scenes, and analyzing them in the right way tells an interesting story.
 
 
 
