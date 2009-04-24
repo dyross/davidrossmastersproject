@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  24 APR 2009 01:11
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.3.24)  24 APR 2009 11:11
 entering extended mode
 **C:/Documents*and*Settings/gpu/Desktop/David*Ross/davidrossmastersproject/mast
 ersProject/writeup/thesis-main.tex
@@ -184,14 +184,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (thesis-chapter1.tex
 Chapter 1.
-
-Package caption Warning: \label before \caption on input line 14.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:localizationMap' on page 1 undefined on input lin
-e 9.
-
 <figures/localizationMap.jpg, id=21, 534.99875pt x 287.0725pt>
 File: figures/localizationMap.jpg Graphic file (type jpg)
 
@@ -217,14 +209,6 @@ File: figures/pcaIntroFigs.jpg Graphic file (type jpg)
 <use figures/pcaIntroFigs.jpg>) [4 <figures/pcaIntroPlot.jpg> <figures/pcaIntro
 Figs.jpg>] (thesis-chapter3.tex
 Chapter 3.
-
-Package caption Warning: \label before \caption on input line 22.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:skyMaskFig' on page 5 undefined on input line 17.
-
-
 [5
 
 
@@ -248,15 +232,8 @@ File: figures/194cars.jpg Graphic file (type jpg)
 <figures/194carsGradient.jpg, id=48, 328.97906pt x 261.97874pt>
 File: figures/194carsGradient.jpg Graphic file (type jpg)
 
-<use figures/194carsGradient.jpg>
-
-LaTeX Warning: Float too large for page by 25.5475pt on input line 58.
-
-[6 <figures/skyMaskFig.jpg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <figures/2skyPCA.jpg> <figures/2skyMask.jpg>]
+<use figures/194carsGradient.jpg> [6 <figures/skyMaskFig.jpg>] [7 <figures/2sky
+PCA.jpg> <figures/2skyMask.jpg>]
 <figures/golfMontageNaive.jpg, id=57, 684.30656pt x 514.92375pt>
 File: figures/golfMontageNaive.jpg Graphic file (type jpg)
 
@@ -264,189 +241,91 @@ File: figures/golfMontageNaive.jpg Graphic file (type jpg)
 <figures/golfMontageSmart.jpg, id=58, 682.80093pt x 513.41812pt>
 File: figures/golfMontageSmart.jpg Graphic file (type jpg)
 
-<use figures/golfMontageSmart.jpg> [8]
-<figures/2dGui.jpg, id=63, 679.03688pt x 353.06906pt>
+<use figures/golfMontageSmart.jpg> [8 <figures/194cars.jpg> <figures/194carsGra
+dient.jpg>] [9 <figures/golfMontageNaive.jpg> <figures/golfMontageSmart.jpg>]
+<figures/2dGui.jpg, id=66, 679.03688pt x 353.06906pt>
 File: figures/2dGui.jpg Graphic file (type jpg)
  <use figures/2dGui.jpg>
 
-Package caption Warning: \label before \caption on input line 101.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:2dGui' on page 9 undefined on input line 103.
-
-
-Package caption Warning: \label before \caption on input line 101.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:2dGui' on page 9 undefined on input line 103.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package caption Warning: \label before \caption on input line 101.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:2dGui' on page 9 undefined on input line 106.
-
-<figures/vectorMagnitudeMean.jpg, id=64, 338.76563pt x 274.77657pt>
+[10] <figures/vectorMagnitudeMean.jpg, id=70, 338.76563pt x 274.77657pt>
 File: figures/vectorMagnitudeMean.jpg Graphic file (type jpg)
 
 <use figures/vectorMagnitudeMean.jpg>
-<figures/vectorMagnitudeMontage.jpg, id=65, 621.07031pt x 511.15968pt>
+<figures/vectorMagnitudeMontage.jpg, id=71, 621.07031pt x 511.15968pt>
 File: figures/vectorMagnitudeMontage.jpg Graphic file (type jpg)
 
-<use figures/vectorMagnitudeMontage.jpg>
-
-LaTeX Warning: Float too large for page by 30.46011pt on input line 126.
-
-[9]
-
-Package caption Warning: \label before \caption on input line 137.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:residualReconstruction' on page 10 undefined on i
-nput line 132.
-
-<figures/residualReconstruction.jpg, id=69, 762.59906pt x 267.24844pt>
+<use figures/vectorMagnitudeMontage.jpg> [11 <figures/2dGui.jpg>] [12 <figures/
+vectorMagnitudeMean.jpg> <figures/vectorMagnitudeMontage.jpg>]
+<figures/residualReconstruction.jpg, id=78, 762.59906pt x 267.24844pt>
 File: figures/residualReconstruction.jpg Graphic file (type jpg)
 
 <use figures/residualReconstruction.jpg>
-<figures/residualSSDmontage.jpg, id=70, 729.47531pt x 543.53062pt>
+<figures/residualSSDmontage.jpg, id=79, 729.47531pt x 543.53062pt>
 File: figures/residualSSDmontage.jpg Graphic file (type jpg)
 
 <use figures/residualSSDmontage.jpg>
 
-LaTeX Warning: Reference `fig:residualSSDMontage' on page 10 undefined on input
- line 150.
+LaTeX Warning: Reference `fig:residualSSDMontage' on page 13 undefined on input
+ line 154.
 
-
-Package caption Warning: \label before \caption on input line 160.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:severalVarianceImages' on page 10 undefined on in
-put line 155.
-
-<figures/severalVarianceImages.jpg, id=71, 572.89032pt x 496.85625pt>
+<figures/severalVarianceImages.jpg, id=80, 572.89032pt x 496.85625pt>
 File: figures/severalVarianceImages.jpg Graphic file (type jpg)
 
-<use figures/severalVarianceImages.jpg>
-
-Package caption Warning: \label before \caption on input line 170.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:residualZScoreMontage' on page 10 undefined on in
-put line 165.
-
-<figures/residualZScoreMontage.jpg, id=72, 723.45282pt x 544.28343pt>
+<use figures/severalVarianceImages.jpg> [13 <figures/residualReconstruction.jpg
+>] [14 <figures/residualSSDmontage.jpg>] [15 <figures/severalVarianceImages.jpg
+>] <figures/residualZScoreMontage.jpg, id=91, 723.45282pt x 544.28343pt>
 File: figures/residualZScoreMontage.jpg Graphic file (type jpg)
 
 <use figures/residualZScoreMontage.jpg>
 
-Package caption Warning: \label before \caption on input line 170.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `fig:residualSSDMontage' on page 16 undefined on input
+ line 177.
 
 
-LaTeX Warning: Reference `fig:residualZScoreMontage' on page 10 undefined on in
-put line 172.
+LaTeX Warning: Reference `fig:residualSSDMontage' on page 16 undefined on input
+ line 177.
 
-
-Package caption Warning: \label before \caption on input line 145.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:residualSSDmontage' on page 10 undefined on input
- line 172.
-
-
-LaTeX Warning: Reference `fig:residualSSDMontage' on page 10 undefined on input
- line 172.
-
-
-Package caption Warning: \label before \caption on input line 170.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:residualZScoreMontage' on page 10 undefined on in
-put line 172.
-
-
-Package caption Warning: \label before \caption on input line 145.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:residualSSDmontage' on page 10 undefined on input
- line 172.
-
-
-LaTeX Warning: Reference `fig:residualSSDMontage' on page 10 undefined on input
- line 172.
-
-
-LaTeX Warning: Reference `fig:severalHists' on page 10 undefined on input line 
-182.
-
-[10] <figures/severalHists2.jpg, id=76, 1049.42062pt x 651.18282pt>
+<figures/severalHists2.jpg, id=92, 1049.42062pt x 651.18282pt>
 File: figures/severalHists2.jpg Graphic file (type jpg)
 
 <use figures/severalHists2.jpg>
-<figures/severalHistsReconstruction.jpg, id=77, 691.58376pt x 839.135pt>
+<figures/severalHistsReconstruction.jpg, id=93, 691.58376pt x 839.135pt>
 File: figures/severalHistsReconstruction.jpg Graphic file (type jpg)
 
-<use figures/severalHistsReconstruction.jpg>
-
-LaTeX Warning: Reference `fig:severalHists' on page 11 undefined on input line 
-197.
-
-
-LaTeX Warning: Reference `fig:severalHists' on page 11 undefined on input line 
-197.
-
-
-LaTeX Warning: Float too large for page by 66.69327pt on input line 199.
-
-<figures/leastNormal.jpg, id=78, 709.14937pt x 578.91281pt>
+<use figures/severalHistsReconstruction.jpg> [16 <figures/residualZScoreMontage
+.jpg>] [17 <figures/severalHists2.jpg> <figures/severalHistsReconstruction.jpg>
+] <figures/leastNormal.jpg, id=100, 709.14937pt x 578.91281pt>
 File: figures/leastNormal.jpg Graphic file (type jpg)
 
 <use figures/leastNormal.jpg>
-<figures/leastLaplacian.jpg, id=79, 707.64375pt x 581.92406pt>
+<figures/leastLaplacian.jpg, id=101, 707.64375pt x 581.92406pt>
 File: figures/leastLaplacian.jpg Graphic file (type jpg)
 
 <use figures/leastLaplacian.jpg>
 
-LaTeX Warning: Reference `leastNormal' on page 11 undefined on input line 229.
+LaTeX Warning: Reference `leastNormal' on page 18 undefined on input line 236.
 
 
-LaTeX Warning: Reference `leastLaplacian' on page 11 undefined on input line 23
-7.
+LaTeX Warning: Reference `leastLaplacian' on page 18 undefined on input line 24
+4.
 
 
-LaTeX Warning: Reference `leastNormal' on page 11 undefined on input line 237.
+LaTeX Warning: Reference `leastNormal' on page 18 undefined on input line 244.
 
-[11]) [12] [13 <figures/194cars.jpg> <figures/194carsGradient.jpg>] [14 <figure
-s/golfMontageNaive.jpg> <figures/golfMontageSmart.jpg>] [15 <figures/2dGui.jpg>
-] [16 <figures/vectorMagnitudeMean.jpg> <figures/vectorMagnitudeMontage.jpg>]
-[17 <figures/residualReconstruction.jpg> <figures/residualSSDmontage.jpg>]
-[18 <figures/severalVarianceImages.jpg>] [19 <figures/residualZScoreMontage.jpg
->] [20 <figures/severalHists2.jpg> <figures/severalHistsReconstruction.jpg>]
-[21 <figures/leastNormal.jpg> <figures/leastLaplacian.jpg>]
+[18] [19 <figures/leastNormal.jpg> <figures/leastLaplacian.jpg>]) [20]
 (thesis-chapter4.tex
 Chapter 4.
-[22
+[21
 
 
 
-]) [23] (thesis-back.tex (thesis-main.bbl) [24
+]) [22] (thesis-back.tex (thesis-main.bbl) [23
 
 
 
-] [24
+] [23
 
 ]) (thesis-main.aux
 (thesis-front.aux) (thesis-chapter1.aux) (thesis-chapter2.aux)
@@ -458,11 +337,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2452 strings out of 95340
  37771 string characters out of 1184155
- 100822 words of memory out of 1500000
+ 96822 words of memory out of 1500000
  5582 multiletter control sequences out of 110000
  9913 words of font info for 35 fonts, out of 1200000 for 2000
  14 hyphenation exceptions out of 8191
- 36i,6n,38p,1233b,275s stack positions out of 5000i,500n,10000p,200000b,5000s
+ 36i,6n,38p,1233b,267s stack positions out of 5000i,500n,10000p,200000b,5000s
 <C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.7/fonts/type1/bluesky/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.7/f
 onts/type1/bluesky/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/blues
@@ -475,9 +354,9 @@ ram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsl12.pfb><C:/Program Files/MiKTeX
  2.7/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1
 /bluesky/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy8
 .pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmti12.pfb>
-Output written on thesis-main.pdf (30 pages, 1780066 bytes).
+Output written on thesis-main.pdf (29 pages, 1779836 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

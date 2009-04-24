@@ -14,12 +14,12 @@
 \contentsline {section}{\numberline {3.2}Visualizations}{8}
 \contentsline {subsection}{\numberline {3.2.1}Image Montage}{8}
 \contentsline {subsection}{\numberline {3.2.2}Well-Separated Set Montage}{8}
-\contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{9}
-\contentsline {section}{\numberline {3.3}Characteristics of Image Reconstructions and Residuals}{9}
-\contentsline {subsection}{\numberline {3.3.1}PCA Basis Coefficient Vector Magnitude}{9}
-\contentsline {subsection}{\numberline {3.3.2}Residual Error}{10}
-\contentsline {subsection}{\numberline {3.3.3}Variance Model}{10}
-\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{11}
-\contentsline {chapter}{\numberline {4}Conclusion}{22}
-\contentsline {section}{\numberline {4.1}Future Work}{22}
-\contentsline {chapter}{References}{24}
+\contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{10}
+\contentsline {section}{\numberline {3.3}Characteristics of Image Reconstructions and Residuals}{11}
+\contentsline {subsection}{\numberline {3.3.1}PCA Basis Coefficient Vector Magnitude}{11}
+\contentsline {subsection}{\numberline {3.3.2}Residual Error}{13}
+\contentsline {subsection}{\numberline {3.3.3}Variance Model}{15}
+\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{16}
+\contentsline {chapter}{\numberline {4}Conclusion}{21}
+\contentsline {section}{\numberline {4.1}Future Work}{21}
+\contentsline {chapter}{References}{23}
