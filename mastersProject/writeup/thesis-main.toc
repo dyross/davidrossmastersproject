@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.1}AMOS Dataset}{1}
 \contentsline {section}{\numberline {1.2}Outline of the Paper}{2}
 \contentsline {chapter}{\numberline {2}Principal Component Analysis}{3}
-\contentsline {section}{\numberline {2.1}The PCA method}{3}
+\contentsline {section}{\numberline {2.1}PCA Math}{3}
 \contentsline {chapter}{\numberline {3}Visualization Tools}{5}
 \contentsline {section}{\numberline {3.1}PCA Input}{5}
 \contentsline {subsection}{\numberline {3.1.1}Temporal Narrowing}{5}
@@ -13,13 +13,13 @@
 \contentsline {subsection}{\numberline {3.1.3}Gradient Image}{7}
 \contentsline {section}{\numberline {3.2}Visualizations}{8}
 \contentsline {subsection}{\numberline {3.2.1}Image Montage}{8}
-\contentsline {subsection}{\numberline {3.2.2}Well-Separated Set Montage}{10}
-\contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{10}
-\contentsline {section}{\numberline {3.3}Characteristics of Image Reconstructions and Residuals}{11}
-\contentsline {subsection}{\numberline {3.3.1}PCA Basis Coefficient Vector Magnitude}{11}
-\contentsline {subsection}{\numberline {3.3.2}Residual Error}{13}
-\contentsline {subsection}{\numberline {3.3.3}Variance Model}{13}
-\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{16}
-\contentsline {chapter}{\numberline {4}Conclusion}{21}
-\contentsline {section}{\numberline {4.1}Future Work}{21}
-\contentsline {chapter}{References}{23}
+\contentsline {subsection}{\numberline {3.2.2}Well-Separated Set Montage}{8}
+\contentsline {subsection}{\numberline {3.2.3}Two-dimensional Explorer}{9}
+\contentsline {section}{\numberline {3.3}Characteristics of Image Reconstructions and Residuals}{9}
+\contentsline {subsection}{\numberline {3.3.1}PCA Basis Coefficient Vector Magnitude}{9}
+\contentsline {subsection}{\numberline {3.3.2}Residual Error}{10}
+\contentsline {subsection}{\numberline {3.3.3}Variance Model}{10}
+\contentsline {subsection}{\numberline {3.3.4}Statistical Distribution of Residual Images}{11}
+\contentsline {chapter}{\numberline {4}Conclusion}{22}
+\contentsline {section}{\numberline {4.1}Future Work}{22}
+\contentsline {chapter}{References}{24}

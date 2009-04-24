@@ -1,31 +1,32 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Map of known webcam locations from the AMOS dataset.}}{2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces PCA reconstruction and residual images for different values of k}}{4}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{4}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Learning a sky mask for a webcam scene.}}{6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sky Mask stuff.}}{7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Focusing on object edges with gradient magnitude images.}}{8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Image montage techniques.}}{9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{9}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Exploring 2D image space using a simple GUI.}}{11}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Criteria: Gradient Magnitude.}}{12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{12}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Residual SSD Montage.}}{14}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Several variance images.}}{15}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Z-Score Montage.}}{16}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Several residual image histograms.}}{17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{17}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{17}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Least Gaussian and Least Laplacian Images.}}{18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Singular values of scenes with and without the sky.}}{6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Learning a sky mask for a webcam scene.}}{7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Highlighting object edges with gradient magnitude images.}}{13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Image montage techniques.}}{14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{14}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Exploring 2D image space using a simple GUI.}}{15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces PCA Basis Coefficient Vector Magnitude.}}{16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{16}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The reconstruction and residual of an image.}}{17}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sum Squared Residual Montage.}}{17}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Several variance images.}}{18}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Z-Score Montage.}}{19}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Several residual image histograms.}}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Least Gaussian and Least Laplacian Image Montages.}}{21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{21}
 \addvspace {10\p@ }

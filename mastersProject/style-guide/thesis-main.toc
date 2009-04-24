@@ -53,4 +53,5 @@
 \contentsline {section}{\numberline {D.2}Table of Contents and Bibliography}{21}
 \contentsline {section}{\numberline {D.3}Captions}{21}
 \contentsline {section}{\numberline {D.4}Widows and Page Breaks}{22}
-\contentsline {chapter}{Vita}{23}
+\contentsline {chapter}{References}{23}
+\contentsline {chapter}{Vita}{24}
