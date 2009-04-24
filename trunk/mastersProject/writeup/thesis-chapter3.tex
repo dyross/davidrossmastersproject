@@ -1,7 +1,7 @@
 \chapter{Visualization Tools}
 \label{cpt:tools}
 
-The main contribution of this project is automatic methods for visualizing how a webcam scene varies and for understanding the most important variations.  In most natural scenes, we notice changes in lighting, weather, and camera conditions which are interesting, but fail to describe the typical behavior of a scene.  The goal of these tools is to learn these variations and to point out changes independent of them.  PCA is a commonly used tool, and
+The main contribution of this project is automatic methods for visualizing how a webcam scene varies and for understanding the most important variations.  In most natural scenes, we notice changes in lighting, weather, and camera conditions which fail to describe the typical behavior of a scene.  The goal of these tools is to learn these variations and to point out changes independent of them.  PCA is a commonly used tool, and
 captures a linear model of consistent image variations.  By analyzing the results of certain PCA trials, we can obtain important and interesting information.
 
 \section{PCA Input}
@@ -14,7 +14,7 @@ The AMOS Dataset consists mostly of outdoor scenes.  These outdoor scenes vary s
 
 \subsection{Sky Mask}
 In many outdoor scenes, even when narrowed to a particular time of day, the most difficult image variation to characterize is the sky.  PCA has a difficult time learning changes in sunlight, clouds,
-and other sky-based variation.  The variance in the sky dominates the PCA reconstruction, causing the basis vectors to focus less on more important variatio, as shown in Figure \ref{fig:skyMaskFig}.
+and other sky-based variation.  The variance in the sky dominates the PCA reconstruction, causing the basis vectors to focus less on more important variation, as shown in Figure \ref{fig:skyMaskFig}.
 
 \begin{figure}[t]
 	\centering
@@ -110,7 +110,7 @@ Using a simple GUI, we can explore a webcam scene in two dimensions.  The GUI, s
 
 \section{Characteristics of Image Reconstructions and Residuals}
 
-Once webcam scenes are projected onto a PCA basis, there are many different ways to analyze the results.  In this section, we will present several different criteria for evaluating this appearance model of a scene.
+Once webcam scenes are projected onto a PCA basis, there are many different ways to analyze the results.  In this section, we will present several different methods for evaluating this appearance model of a scene.
 
 \subsection{PCA Basis Coefficient Vector Magnitude}
 
@@ -151,7 +151,7 @@ Given an image and a PCA basis, we can project the image onto the basis and see 
 		\label{fig:residualSSDmontage}
 \end{figure}
 
-If we sort evaluate our images based on the sum of the squared residual values of each pixel, we get a good measure for how much variation not captured by PCA, as shown in Figure \ref{fig:residualSSDMontage}.  Whereas the PCA coefficient vector magnitude evaluation gives images that are different from the mean image, this evaluation captures more of the interesting variation that we are looking for.
+If we sort evaluate our images based on the sum of the squared residual values of each pixel, we get a good measure for how much variation is not captured by PCA, as shown in Figure \ref{fig:residualSSDmontage}.  Whereas the PCA coefficient vector magnitude evaluation gives images that are different from the mean image, this evaluation captures more of the interesting variation that we are looking for.
 
 
 \subsection{Variance Model}
@@ -174,7 +174,7 @@ One we have this variance image, we can attempt to isolate independent pixels in
 		\includegraphics[width=1\textwidth]{figures/residualZScoreMontage.jpg}
 	
 	
-		\caption[Z-Score Montage.]{Figure \ref{fig:residualZScoreMontage} shows several images from the same scene as \ref{fig:residualSSDmontage}, but sorted by the sum of the Z-Score values.  The objects in these images are in more unlikely positions as those in \ref{fig:residualSSDMontage}.}
+		\caption[Z-Score Montage.]{Figure \ref{fig:residualZScoreMontage} shows several images from the same scene as \ref{fig:residualSSDmontage}, but sorted by the sum of the Z-Score values.  The objects in these images are in more unlikely positions as those in the residual sum squared error montage.}
 		\label{fig:residualZScoreMontage}
 \end{figure}
 
@@ -233,7 +233,7 @@ $$f(x|\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}$$
 
 to evaluate the overall likeliness that the residual image was sampled from the estimated Gaussian distribution.  
 
-Figure \ref{leastNormal} shows a Well-Separated Set Montage of images that were not likely Gaussian.  These images capture some interesting variation, but also some variation in lighting and camera artifacts.
+Figure \ref{fig:leastNormal} shows a Well-Separated Set Montage of images that were not likely Gaussian.  These images capture some interesting variation, but also some variation in lighting and camera artifacts.
 
 \item{\textbf{Laplacian Likelihood}}
 
@@ -241,7 +241,7 @@ Many of the residual images have a majority of pixels that are very close zero. 
 
 $$f(x|\mu,\beta)=\frac{1}{2\beta}e^{\frac{-|x-\mu|}{\beta}}$$
 
-Figure \ref{leastLaplacian} shows a Well-Separated Set Montage of images that were not likely Laplacian.  These images tend to capture more interesting variation than those in Figure \ref{leastNormal}.
+Figure \ref{fig:leastLaplacian} shows a Well-Separated Set Montage of images that were not likely Laplacian.  These images tend to capture more interesting variation than those in Figure \ref{fig:leastNormal}.
 
 \item{\textbf{Kurtosis}}
 
@@ -255,7 +255,7 @@ Evaluating images based on the kurtosis of their residual images tend to give re
 
 The skewness of a random variable is a measure of asymmetry.  Higher skewness values mean deviations on one side of the mean do not have corresponding deviations on the other side.  It is defined as $$\gamma_1=\frac{\mu_3}{\sigma^3}$$ where $\mu_3$ is the third moment about the mean and $\sigma^3$ is the cube of the standard deviation.
 
-Evaluating images based on skewness does not give positive results.  The is possibly the result of the small objects on either side of the mean that would add to the asymmetry of the distribution are dominated by the noise over the rest of the image.
+Evaluating images based on skewness does not give positive results.  The is possibly the result of the fact that small objects on either side of the mean that would add to the asymmetry of the distribution are dominated by the noise over the rest of the image.
 
 
 \end{enumerate}
