@@ -6,4 +6,11 @@ Matthew Brand.
   missing values.
 \newblock In {\em In ECCV}, pages 707--720, 2002.
 
+\bibitem{jacobs08geoorient}
+Nathan Jacobs, Nathaniel Roman, and Robert Pless.
+\newblock Toward fully automatic geo-location and geo-orientation of static
+  outdoor cameras.
+\newblock In {\em IEEE Workshop on Applications of Computer Vision (WACV
+  2008)}, Copper Mountain, CO, January 2008.
+
 \end{thebibliography}
